@@ -1,0 +1,1393 @@
+.seguros .esp{
+    padding: 40px 0;
+}
+.seguros .row .texto{
+    margin-top: 50px;
+}
+.seguros h2{
+    color: #ea1d2c;
+    font-family: 'TipoiFoodTitulos-Bold';
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+.seguros .sub h2{
+    color: #ea1d2c;
+    font-family: 'TipoiFoodTitulos-Bold';
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    max-width: 175px;
+
+}
+.seguros .esp p{
+    font-family: 'TipoiFoodTextos-Light';
+    font-size: 21px;
+}
+.seguros .esp p strong{
+    font-family: 'TipoiFoodTextos-Bold';
+}
+.seguros .esp .conteudo2 p{
+    margin-top: 40px;
+    line-height: 23px;
+}
+.seguros .esp .coberturas h2{
+    background-color: #EA0029;
+    width: fit-content;
+    padding: 10px 30px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'TipoiFoodTextos-Regular';
+    letter-spacing: -1px;
+    font-size: 30px;
+    position: relative;
+    margin: 0 auto;
+    top: -40px;
+    z-index: 1;
+}
+.skew {
+    -webkit-transform: skew(0deg); /* Chrome, Opera */
+    -ms-transform: skew(0deg); /* IE */
+    transform: skew(0deg); /* Padrão */
+}
+.seguros .esp .coberturas h2:after{
+    content: '';
+    position: absolute;
+    right: -8px;
+    width: 16px;
+    height: 60px;
+    background-color: #EA0029;
+    margin-top: -10px;
+    -webkit-transform: skew(-15deg); /* Chrome, Opera */
+    -ms-transform: skew(-15deg); /* IE */
+    transform: skew(-15deg); /* Padrão */
+}
+.seguros .esp .coberturas h2:before{
+    content: '';
+    position: absolute;
+    left: -8px;
+    width: 16px;
+    height: 60px;
+    background-color: #EA0029;
+    margin-top: -10px;
+    -webkit-transform: skew(6deg);
+    -ms-transform: skew(6deg);
+    transform: skew(6deg);
+}
+.seguros .esp .coberturas h3{
+    font-family: 'TipoiFoodTextos-Regular';
+    color: #FFF;
+    background-color: #EA0029;
+    padding: 15px 0;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.seguros .esp .coberturas .mrgt{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.seguros .esp .borda .mrgt{
+    margin-top: -25px;
+}
+.seguros .esp .borda{
+    border: 1px solid #EA0029;
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.seguros .esp .banner-bottom a{
+    background-color: transparent;
+}
+.seguros .esp a.btns{
+    color: #FFF;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: #EA0029;
+    display: block;
+    width: fit-content;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-family: 'TipoiFoodTextos-Regular';
+    float: right;
+}
+
+.seguros .esp a.btns:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+.seguros .esp .borda p:first-child{
+    margin-top: 30px;
+}
+.seguros .esp .borda .conteudo-mulher p{
+    font-size: 32px;
+    font-family: 'TipoiFoodTextos-Bold';
+    color: #EA0029;
+    /* max-width: 420px; */
+    line-height: 35px;
+    letter-spacing: -1px;
+}
+.seguros .esp .borda .conteudo-mulher .din div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 0;
+}
+.seguros .esp .borda .conteudo-mulher .din .count{
+    width: 335px;
+    text-align: left;
+}
+.seguros .esp .borda .conteudo-mulher .din p{
+    color: #444;
+    font-size: 21px;
+    line-height: 17px;
+    font-family: 'TipoiFoodTextos-Light';
+    text-align: left;
+    padding-top: 10px;
+}
+.seguros .esp .borda .conteudo-mulher .din p strong{
+    font-size: 25px;
+    color: #EA0029;
+    display: block;
+    margin-top: 10px;
+}
+.seguros .esp .borda .conteudo-mulher .din p:first-child{
+    display: none;
+}
+.seguros .esp .borda .cob img{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: -25px;
+    max-width: 145px;
+}
+.seguros .esp .borda .din{
+    text-align: center;
+}
+.seguros .esp .borda .din p{
+    display: inline-block;
+    text-align: center;
+    color: #EA0029;
+    font-family: 'TipoiFoodTextos-Regular';
+    font-size: 18px;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+.seguros .esp .borda .din p span{
+    color: #000;
+    font-size: 13px;
+    line-height: 13px;
+    font-family: 'TipoiFoodTextos-Light'; 
+    max-width: 143px;
+    display: block;
+    margin-left: 92px;
+    margin-top: -40px;
+}
+.seguros .esp .borda .din img{
+    max-width:69px;
+    margin: 0 10px;
+}
+.modal-seguro .carousel{
+    overflow: hidden;
+}
+.modal-seguro .carousel .carousel-cell{
+    width: 100%;
+}
+.modal-seguro .carousel .flickity-prev-next-button{
+    top: 40px;
+    position: absolute;
+    
+}
+.modal-seguro .carousel .flickity-prev-next-button.next{
+    right: 10px;
+    background: url(../img/arrow-next.png) no-repeat center;
+    width: 50px;
+    height: 50px;
+}
+.modal-seguro .carousel .flickity-prev-next-button.previous{
+    left: 10px;
+    background: url(../img/arrow-prev.png) no-repeat center;
+    width: 50px;
+    height: 50px;
+}
+.modal-seguro .carousel .flickity-prev-next-button.next .arrow,
+.modal-seguro .carousel .flickity-prev-next-button.previous .arrow{
+    fill: transparent;
+}
+.modal-seguro{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    padding-top: 20px;
+    overflow: scroll;
+    display: none;
+}
+.modal-seguro .modal-seg{
+    max-width: 95%;
+    background-color: #FFF;
+    padding: 4rem;
+    margin: 0 auto;
+}
+.modal-seguro::-webkit-scrollbar {
+    width: 0px;
+}
+.modal-seguro::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.modal-seguro .modal-seg p.fechar{
+    font-family: 'TipoiFoodTextos-Light';
+    border: 1px solid #EA0029;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #EA0029;
+    position: fixed;
+    right: 45px;
+}
+.modal-seguro .modal-seg h2{
+    padding: 10px;
+    background-color: #EA0029;
+    text-align: center;
+    border-radius: 30px;
+    color: #FFF;
+}
+.modal-seguro .modal-seg h3{
+    padding: 20px 10px;
+    text-align: left;
+    color: #EA0029;
+    font-family: 'TipoiFoodTitulos-Medium';
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+.modal-seguro .modal-seg .bg-play{
+    background: no-repeat center center/cover;
+    max-height: 600px;
+    padding: 20rem 0;
+}
+.modal-seguro .modal-seg .bg-play h4{
+    color: #FFF;
+    font-size: 45px;
+    line-height: 45px;
+    font-family: 'TipoiFoodTextos-Regular';
+    text-transform: uppercase;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.modal-seguro .modal-seg .bg-play .play{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: -85px;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.modal-seguro .modal-seg .bg-play .play:hover{
+    opacity: 1;
+}
+.modal-seguro .modal-seg .modal-video{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    padding-top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.modal-seguro .modal-seg .modal-video .fechar-video{
+    text-align: center;
+    color: #FFF;
+    font-size: 45px;
+    line-height: 45px;
+    font-family: 'TipoiFoodTextos-Regular';
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.modal-seguro .modal-seg .modal-video iframe{
+    height: 90vh;
+}
+.modal-seguro .modal-seg .btns{
+    text-align: center;
+    padding: 4rem 0;
+}
+.modal-seguro .modal-seg .assistencia{
+    margin-top: 30px;
+}
+.modal-seguro .modal-seg .conteudo .termos a{
+    display: block;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'TipoiFoodTextos-Light';
+    text-align: center;
+    color: #EA0029;
+    text-decoration: underline;
+    float: left;
+}
+.modal-seguro .modal-seg .conteudo .termos a:hover{
+    color: #EA0029;
+}
+.modal-seguro .modal-seg a.btn-portal{
+    display: inline-block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 15px 50px 10px;
+    margin: 0 10px;
+    background-color: #EA0029;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'TipoiFoodTextos-Regular';
+    text-decoration: none;
+}
+.modal-seguro .modal-seg .assistencia p{
+    text-align: left;
+    color: #000;
+    font-family: 'TipoiFoodTextos-Light';
+    font-size: 30px;
+    margin: 0 0 30px;
+    padding: 15px 0;
+    line-height: 40px;
+}
+.modal-seguro .modal-seg .assistencia p.title{
+    text-align: left;
+    color: #EA0029;
+    font-family: 'TipoiFoodTextos-Regular';
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: -2px;
+    margin: 0;
+    padding: 15px 0;
+    max-width: 100%;
+}
+.modal-seguro .modal-seg .desp{
+    display: inline-block;
+    vertical-align: middle;
+}
+.modal-seguro .modal-seg .mrg{
+    padding: 3rem 0;
+}
+.modal-seguro .modal-seg .desp .textos{
+    width: 763px;
+    display: inline-block;
+    height: 105px;
+    vertical-align: revert;
+}
+.modal-seguro .modal-seg .desp .imgs-valores{
+    width: 315px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    margin-left: 70px;
+}
+.modal-seguro .modal-seg .desp .imgs-valores svg{
+    max-width: 100px;
+    max-height: 100px;
+}
+.modal-seguro .modal-seg .desp .imgs-valores p{
+    text-align: center;
+    color: #EA0029;
+    font-family: 'TipoiFoodTextos-Regular';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0px;
+    margin: 0;
+    height: 100px;
+    display: inline-block;
+    vertical-align: super;
+}
+.modal-seguro .modal-seg .arrows{
+    background-color: #EA0029;
+    width: fit-content;
+    padding: 20px 35px 15px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-align: center;
+    border-radius: 15px;
+    color: #FFF;
+    font-family: 'TipoiFoodTextos-Regular';
+    font-size: 30px;
+    width: 745px;
+}
+.modal-seguro .modal-seg .twoline{
+     padding: 30px 35px 25px;
+     line-height: 35px;
+}
+.modal-seguro .modal-seg .arrows .linha{
+    width: 115px;
+    height: 10px;
+    background-color: #EA0029;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 3px;
+}
+.modal-seguro .modal-seg .arrows:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-width: 12.5px 0 12.5px 21.7px;
+    border-color: transparent transparent transparent #EA0029;
+    border-style: solid;    
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -5px;
+}
+.modal-seguro .modal-seg .arrows .linha-down{
+    width: 10px;
+    height: 55px;
+    background-color: #EA0029;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 27px;
+}
+.modal-seguro .modal-seg .arrows:before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-width: 21.7px 12.5px 0 12.5px;
+    border-color: #EA0029 transparent transparent transparent;
+    border-style: solid;    
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 70px;
+}
+.modal-seguro .modal-seg .twoline:before{
+    left: 120px;
+    margin-top: 140px;
+}
+.modal-seguro .modal-seg .twoline .linha-down{
+    left: 105px;
+    margin-top: 85px;
+}
+.modal-seguro .modal-seg .twoline:after{
+    margin-top: -15px;
+}
+.modal-seguro .modal-seg .twoline .linha{
+    margin-top: -7px;
+}
+.modal-seguro .modal-seg .despesas-itens{
+    margin-top: 75px;
+}
+.modal-seguro .modal-seg .despesas{
+    width: 47%;
+    display: inline-block;
+    vertical-align: top;
+}
+.modal-seguro .modal-seg .despesas div{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px 0;
+}
+.modal-seguro .modal-seg .despesas .icone{
+    max-width: 90px;
+}
+.modal-seguro .modal-seg .despesas .icone svg{
+    max-width: 65px;
+}
+.modal-seguro .modal-seg .despesas .texto{
+    margin-top: 25px;
+}
+.modal-seguro .modal-seg .despesas .texto p{
+    margin-bottom: 0;
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    line-height: 24px;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+.mais, 
+.menos{
+    width: 50px;
+    height: 40px;
+    line-height: 50px;
+    text-align: center;
+    float: right;
+    font-family: 'TipoiFoodTextos-Regular';
+}
+.menos{
+    display:none;
+}
+.modal-seguro .conteudo .collapse.in {
+  display: block; 
+}
+.modal-seguro .modal-seg .lista{
+    padding: 3rem 0;
+}
+.modal-seguro .modal-seg .lista a{
+    background-color: #EA0029;
+    color: #FFF;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'TipoiFoodTextos-Regular';
+    border-radius: 60px;
+    margin: 20px 0;
+    text-decoration: none;
+}
+.modal-seguro .modal-seg .lista #acidentes,
+.modal-seguro .modal-seg .lista #m-acidental,
+.modal-seguro .modal-seg .lista #i-permanente,
+.modal-seguro .modal-seg .lista #l-documentos,
+.modal-seguro .modal-seg .lista #l-auxilio,
+.modal-seguro .modal-seg .lista #docs,
+.modal-seguro .modal-seg .lista #docs-m,
+.modal-seguro .modal-seg .lista #docs-a,
+.modal-seguro .modal-seg .lista #docs-o,
+.modal-seguro .modal-seg .lista #docs-n,
+.modal-seguro .modal-seg .lista #docs-p,
+.modal-seguro .modal-seg .lista #docs-l,
+.modal-seguro .modal-seg .lista #docs-j {
+    background-color: #F8EDED;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 60px;
+    margin-top: -20px;
+    position: relative;
+}
+.modal-seguro .modal-seg .lista ul{
+    padding: 30px;
+}
+.modal-seguro .modal-seg .lista #acidentes li,
+.modal-seguro .modal-seg .lista #m-acidental li,
+.modal-seguro .modal-seg .lista #i-permanente li,
+.modal-seguro .modal-seg .lista #l-documentos li,
+.modal-seguro .modal-seg .lista #l-auxilio li,
+.modal-seguro .modal-seg .lista #docs li,
+.modal-seguro .modal-seg .lista #docs-m li,
+.modal-seguro .modal-seg .lista #docs-a li,
+.modal-seguro .modal-seg .lista #docs-o li,
+.modal-seguro .modal-seg .lista #docs-n li,
+.modal-seguro .modal-seg .lista #docs-p li,
+.modal-seguro .modal-seg .lista #docs-l li,
+.modal-seguro .modal-seg .lista #docs-j li {
+
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    margin: 20px 10px;
+    line-height: 24px;
+}
+.modal-seguro .modal-seg .lista p{
+    font-size: 24px;
+    margin: 10px 20px;
+    line-height: 24px;
+}
+.modal-seguro .modal-seg .mrgb{
+    margin-bottom: 25px;
+}
+.modal-seguro .modal-seg .mrgb p{
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    line-height: 34px;
+    padding: 0 10px;
+    color: #000;
+}
+.modal-seguro .modal-seg .mrgb p a{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000;
+}
+.modal-seguro .modal-seg .mrgb p a.tel{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.modal-seguro .modal-seg .mrgb p a.tel:hover{
+    color: #000;
+}
+.modal-seguro .modal-seg .mrgb p a:hover{
+    color: #EA0029;
+}
+.modal-seguro .carousel-cobertura{
+    height: 470px;
+    margin: 40px;
+    padding-bottom: 20px;
+}
+.modal-seguro .carousel-cobertura .cell-cobertura{
+    width: 31.4%;
+    border: 3px solid #EA0029;
+    border-radius: 5px;
+    padding: 10px;
+    height: 450px;
+    margin: 0 15px;
+}
+.modal-seguro .carousel-cobertura .cell-cobertura img{
+    display: block;
+    margin: 0 auto;
+}
+.modal-seguro .carousel-cobertura .cell-cobertura p{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    margin: 10px;
+}
+.modal-seguro .carousel-cobertura .cell-cobertura p span{
+    color: #EA0029;
+}
+.modal-seguro .carousel-cobertura .flickity-page-dots {
+    bottom: -30px;
+}
+.modal-seguro .carousel-cobertura .flickity-page-dots .dot:before{
+    background-color: #EA0029;
+    height: 10px;
+}
+.modal-seguro .modal-seg .coberturas{
+    padding: 10rem 0;
+}
+.modal-seguro .modal-seg .coberturas .row{
+    padding: 20px 0;
+}
+.modal-seguro .modal-seg .coberturas svg{
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+.modal-seguro .modal-seg .coberturas p{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'TipoiFoodTextos-Light';
+    padding: 20px;
+    border: 1px solid #EA0029;
+    text-align: left;
+    border-radius: 10px;
+}
+.modal-seguro .modal-seg .auxilio-f p{
+    border: 1px solid transparent;
+}
+.modal-seguro .modal-seg .auxilio-f .arrow{
+    border: 1px solid #EA0029; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 35px;
+}
+.modal-seguro .modal-seg .cob-filhos .arrow:after{
+    content: '';
+    border-width: 12.5px 0 12.5px 21.7px;
+    border-color: transparent transparent transparent #EA0029;
+    border-style: solid;
+    position: absolute;
+    right: -120px;
+    top: 92px;
+}
+.modal-seguro .modal-seg .cob-filhos .arrow .linha{
+    width: 70px;
+    height: 10px;
+    background-color: #EA0029;
+    position: absolute;
+    top: 100px;
+    right: -100px;
+}
+.modal-seguro .modal-seg .auxilio-f p.filho{
+    font-size: 35px;
+    line-height: 35px;
+    font-family: 'TipoiFoodTextos-Regular';
+    color: #EA0029;
+    border: 1px solid transparent;
+    padding: 30px 0;
+    text-align: center;
+}
+.modal-seguro .modal-seg .auxilio-f p.necessario{
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    color: #EA0029;
+    padding: 10px 0;
+    margin-left: 15px;
+}
+.modal-seguro .modal-seg .coberturas.auxilio-f .row{
+    padding: 0;
+}
+.modal-seguro .modal-seg .coberturas.auxilio-f .arrow p{
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    color: #000000;
+    /* padding: 20px 0; */
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.modal-seguro .modal-seg .coberturas .arrow p{
+    font-size: 40px;
+    line-height: 40px;
+    font-family: 'TipoiFoodTextos-Regular';
+    color: #EA0029;
+    border: 1px solid transparent;
+    padding: 55px 0;
+    margin-left: 15px;
+}
+.modal-seguro .modal-seg .coberturas .ico-din:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-width: 12.5px 0 12.5px 21.7px;
+    border-color: transparent transparent transparent #EA0029;
+    border-style: solid;
+    position: absolute;
+    right: 0px;
+    top: 65px;
+}
+.modal-seguro .modal-seg .coberturas .ico-din .linha{
+    width: 55px;
+    height: 10px;
+    background-color: #EA0029;
+    position: absolute;
+    top: 71px;
+    right: 20px;
+}
+.modal-seguro .modal-seg .calculo .hashtag p{
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    line-height: 24px;
+    padding: 0 10px;
+    color: #000;
+}
+.modal-seguro .modal-seg .calculo .hashtag span{
+    display: block;
+    font-size: 40px;
+    color: #EA0029;
+    font-family: 'TipoiFoodTextos-Regular';
+    padding: 0 10px;
+    line-height: 40px;
+}
+.modal-seguro .modal-seg .calculo .exemplo p{
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'TipoiFoodTextos-Regular';
+    color: #EA0029;
+    border: 1px solid #EA0029;
+    padding: 30px 55px;
+    border-radius: 10px;
+    text-align: center;
+}
+.modal-seguro .modal-seg .recomeco{
+    border: 1px solid #EA0029;
+    padding: 20px;
+    margin: 0px 5px 15px;
+    border-radius: 10px;
+}
+.modal-seguro .modal-seg .recomeco.mgt{
+    margin: 15px 5px;
+}
+.modal-seguro .modal-seg .recomeco svg{
+    display: block;
+    margin: 0 auto;
+}
+.modal-seguro .modal-seg .recomeco p{
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    line-height: 30px;
+    padding: 0 10px;
+    color: #000;
+}
+.modal-seguro .modal-seg h3.lapis{
+    max-width: 990px;
+}
+.modal-seguro .modal-seg .bg-lapis{
+    background: no-repeat right center/contain;
+    height: 195px;
+    background-position-x: calc(100% - 100px);
+    margin-top: -60px;
+}
+.modal-seguro .modal-seg .bg-lapis .linha{
+    display: block;
+    width: 81%;
+    height: 5px;
+    background-color: #EA0029;
+    position: absolute;
+    margin: 0px 10px;
+    margin-top: 128px;
+}
+.modal-seguro .modal-seg .dinamica p{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    line-height: 30px;
+    padding: 0 10px;
+    color: #EA0029;
+}
+.modal-seguro .modal-seg .dinamica p a{
+    text-decoration: underline;
+    font-family: 'TipoiFoodTextos-Bold';
+    color: #EA0029;
+}
+.modal-seguro .modal-seg .dinamica p a:hover{
+    color: #EA0029;
+}
+.modal-dinamica{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 1.0);
+    padding-top: 50px;
+    z-index: 9999;
+    display: none;
+    overflow: scroll;
+}
+.modal-dinamica::-webkit-scrollbar {
+    width: 0px;
+}
+.modal-dinamica::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.modal-dinamica .itens{
+    width: 900px;
+    margin: 0 auto;
+}
+.modal-dinamica .itens .borda{
+    border: 1px solid #EA0029;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.modal-dinamica .itens .borda p{
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'TipoiFoodTextos-Light';
+    color: #000;
+    text-align: left;
+}
+.modal-dinamica .itens .borda p span{
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'TipoiFoodTextos-Regular';
+    color: #EA0029;
+}
+.modal-seguro .modal-seg .modal-dinamica .itens .right{
+    text-align: right;
+}
+.modal-seguro .modal-seg .modal-dinamica .itens .fechar-dinamica{
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    line-height: 30px;
+    padding: 0 10px;
+    color: #EA0029;
+    border: 1px solid #ea0029;
+    display: inline-block;
+    cursor: pointer;
+}
+.modal-seguro .modal-seg .conteudo .banner-mulher{
+    padding: 40px 0;
+}
+.modal-seguro .modal-seg .prt-mulher h3{
+    padding: 20px 10px;
+    text-align: left;
+    color: #EA0029;
+    font-family: 'TipoiFoodTextos-Regular';
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+.modal-seguro .modal-seg .prt-mulher p.btns{
+    background-color: #EDB57A;
+    padding: 30px 10px;
+    color: #FFF;
+    font-family: 'TipoiFoodTextos-Regular';
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 40px;
+    margin: 20px 0;
+}
+.modal-seguro .modal-seg .prt-mulher p{
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    line-height: 30px;
+    padding: 0 10px;
+}
+.modal-seguro .modal-seg .prt-mulher p span{
+    color: #EA0029;
+    font-family: 'TipoiFoodTextos-Regular';
+    font-weight: 400;
+    font-size: 40px;
+    height: 125px;
+    line-height: 125px;
+}
+.modal-seguro .modal-seg .prt-mulher .item{
+    padding: 30px 0;
+}
+.modal-seguro .modal-seg .prt-mulher .arrow:after{
+    content: '';
+    border-width: 12.5px 0 12.5px 21.7px;
+    border-color: transparent transparent transparent #EA0029;
+    border-style: solid;
+    position: absolute;
+    right: -85px;
+    top: 58px;
+}
+.modal-seguro .modal-seg .prt-mulher .item svg{
+    max-width: 125px;
+    max-height: 125px;
+}
+.modal-seguro .modal-seg .prt-mulher .arrow .linha{
+    width: 70px;
+    height: 10px;
+    background-color: #EA0029;
+    position: absolute;
+    top: 65px;
+    right: -65px;
+}
+.modal-seguro .modal-seg .prt-mulher .arrow.arrow-novo .linha.linha-nova{
+    width: 70px;
+    height: 10px;
+    background-color: #EA0029;
+    position: absolute;
+    top: 57px;
+    right: 70px;
+}
+.modal-seguro .modal-seg .prt-mulher .arrow.arrow-novo:after{
+    content: '';
+    border-width: 12.5px 0 12.5px 21.7px;
+    border-color: transparent transparent transparent #EA0029;
+    border-style: solid;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.modal-seguro .modal-seg .prt-mulher p.obs{
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    line-height: 30px;
+    color: #EA0029;
+    padding: 0 10px;
+    margin-bottom: 40px;
+}
+.modal-seguro .modal-seg .a-maternidade,
+.modal-seguro .modal-seg .afastamento,
+.modal-seguro .modal-seg .bem-estar{
+    padding: 40px 0;
+}
+.modal-seguro .modal-seg .a-maternidade svg{
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.modal-seguro .modal-seg .a-maternidade .valor div{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+.modal-seguro .modal-seg .a-maternidade .valor div p{
+    color: #EA0029;
+    font-family: 'TipoiFoodTextos-Regular';
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 40px;
+}
+.modal-seguro .modal-seg .a-maternidade .valor p{
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    line-height: 30px;
+    color: #000;
+    padding: 0 10px;
+    margin-bottom: 40px;
+}
+.modal-seguro .modal-seg .a-maternidade .valor p.realizado{
+    color: #EA0029;
+    border: 1px solid #EA0029;
+    padding: 5px 25px 3px;
+    border-radius: 20px;
+    width: fit-content;
+}
+.modal-seguro .modal-seg .afastamento p{
+    color: #EA0029;
+    font-family: 'TipoiFoodTextos-Regular';
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: -2px;
+    text-align: left;
+    line-height: 40px;
+}
+.modal-seguro .modal-seg .afastamento .borda p{
+    border: 1px solid #ea0029;
+    padding: 20px;
+    text-align: center;
+    border-radius: 60px;
+    font-size: 33px;
+    line-height: 40px;
+}
+.modal-seguro .modal-seg .afastamento p.necessario{
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    line-height: 30px;
+    color: #000;
+    padding: 0 10px;
+    margin: 40px 0;
+    line-height: 35px;
+}
+.modal-seguro .modal-seg .afastamento svg{
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.modal-seguro .modal-seg .afastamento svg#Grupo_288{
+    margin-top: -35px;
+    margin-left: -35px;
+}
+.modal-seguro .modal-seg .prt-mulher .mrgb h3{
+    color: #ea0029;
+}
+.modal-seguro .modal-seg .bem-estar p{
+    color: #EA0029;
+    font-family: 'TipoiFoodTextos-Regular';
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: -2px;
+    text-align: left;
+}
+.modal-seguro .modal-seg .bem-estar p img{
+    max-width: 125px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.modal-seguro .modal-seg .bem-estar svg{
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.modal-seguro .modal-seg .bem-estar .borda{
+    border-radius: 55px;
+    border: 1px solid #EA0029;
+    padding: 30px;
+}
+.modal-seguro .modal-seg .bem-estar .borda p{
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    line-height: 30px;
+    color: #000;
+    margin: 0;
+}
+.modal-seguro .modal-seg .bem-estar .borda p.evento{
+    color: #EA0029;
+    font-family: 'TipoiFoodTextos-Regular';
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: -2px;
+    text-align: left;
+}
+.modal-seguro .modal-seg .prt-mulher .solicitar p span{
+    line-height: 40px;
+}
+.modal-termo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 1.0);
+    padding-top: 50px;
+    z-index: 9999;
+    display: none;
+    overflow: scroll;
+}
+.modal-termo::-webkit-scrollbar {
+    width: 0px;
+}
+.modal-termo::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.modal-termo .itens{
+    width: 900px;
+    margin: 0 auto;
+}
+.modal-termo .itens .borda{
+    border: 1px solid #EA0029;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.modal-termo .itens .borda p{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'TipoiFoodTextos-Light';
+    color: #000;
+    text-align: left;
+}
+.modal-termo .itens p.title{
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'TipoiFoodTextos-Regular';
+    color: #EA0029;
+    text-align: center;
+}
+.modal-termo .itens .borda p span{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'TipoiFoodTextos-Regular';
+    color: #EA0029;
+}
+.modal-termo .itens .right{
+    text-align: right;
+}
+.modal-termo .itens .fechar-termo{
+    font-size: 24px;
+    font-family: 'TipoiFoodTextos-Light';
+    line-height: 30px;
+    padding: 0 10px;
+    color: #EA0029;
+    border: 1px solid #ea0029;
+    display: inline-block;
+    cursor: pointer;
+}
+.modal-termo .itens .susep {
+    margin-top: 30px;
+}
+.modal-termo .itens .susep p {
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'TipoiFoodTextos-Light';
+    color: #444;
+}
+.mob{
+    display: none;
+}
+.modal-seguro .modal-seg .conteudo .bem-estar .alinha {
+        display: flex;
+        align-items: center;
+    }
+@media (max-width: 1024px){
+    .seguros .esp .borda .cob img{
+        margin-top: 0;
+    }
+    .seguros .esp .borda .conteudo-mulher .din .count{
+        width: 100%;
+        text-align: center;
+    }
+    .seguros .esp .borda .conteudo-mulher .din p{
+        text-align: center;
+    }
+    .seguros .esp .borda .din p span{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .modal-seguro .modal-seg .arrows:before,
+    .modal-seguro .modal-seg .twoline .linha,
+    .modal-seguro .modal-seg .arrows .linha,
+    .modal-seguro .modal-seg .twoline .linha-down,
+    .modal-seguro .modal-seg .arrows:after,
+    .modal-seguro .modal-seg .arrows .linha-down,
+    .modal-seguro .modal-seg .twoline:after,
+    .modal-seguro .modal-seg .coberturas .ico-din .linha,
+    .modal-seguro .modal-seg .coberturas .ico-din:after,
+    .modal-seguro .modal-seg .prt-mulher .arrow .linha,
+    .modal-seguro .modal-seg .prt-mulher .arrow:after{
+        display: none;
+    }
+    .modal-seguro .modal-seg .despesas{
+        text-align: center;
+    }
+    .modal-seguro .modal-seg .desp .imgs-valores{
+        margin-top: 40px;
+    }
+    .modal-seguro .carousel-cobertura .cell-cobertura{
+        width: 80%;
+    }
+    .modal-seguro .modal-seg .arrows,
+    .modal-seguro .modal-seg .desp .textos{
+        width: 100%;
+    }
+    .modal-seguro .modal-seg .arrows{
+        line-height: 40px;
+    }
+    .modal-seguro .modal-seg .desp .imgs-valores{
+        width: 100%;
+    }
+}
+@media (max-width: 912px){
+    .modal-seguro .modal-seg .despesas,
+    .modal-seguro .modal-seg .despesas{
+        width: 100%;
+    }
+    .modal-seguro .modal-seg .despesas .texto,
+    .modal-seguro .modal-seg .despesas .texto{
+        width: 100%;
+    }
+    .modal-seguro .modal-seg .coberturas .arrow p{
+        text-align: center;
+    }
+    .modal-seguro .modal-seg .auxilio-f .arrow{
+        margin-left: 0;
+    }
+    .modal-seguro .modal-seg .coberturas.auxilio-f .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .seguros .mob img{
+        display: block;
+        margin: 0 auto;
+        max-width: 200px;
+    }
+    .seguros .esp .borda .din img{
+        max-width: 50px;
+    }
+    .modal-dinamica .itens,
+    .modal-termo .itens{
+        width: 100%;
+    }
+    .mob{
+        display: block;
+    }
+    .desk{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .seguros .esp .borda .conteudo-mulher p{
+        max-width: 100%;
+    }
+    .modal-seguro .modal-seg a.btn-portal{
+        margin: 10px 0;
+    }
+    .seguros .esp .borda .mrgt .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .modal-seguro .modal-seg p.fechar{
+        right: 22px;
+    }
+    .modal-seguro .modal-seg .desp .imgs-valores{
+        margin-left: 0;
+    }
+    .modal-seguro .modal-seg .lista a{
+        font-size: 30px;
+        padding: 20px 15px;
+    }
+    .seguros .esp p{
+        text-align: left;
+    }
+    .modal-seguro .modal-seg .bg-lapis{
+        display: none;
+    }
+    .modal-seguro .modal-seg .prt-mulher .item svg,
+    .modal-seguro .modal-seg .afastamento svg#Grupo_288{
+        display: block;
+        margin: 0 auto;
+    }
+    .modal-seguro .modal-seg .bem-estar p,
+    .modal-seguro .modal-seg .bem-estar .borda p.evento{
+        text-align: center;
+    }
+}
+@media (max-width: 568px){
+    .modal-seguro .modal-seg{
+        max-width: 90%;
+        padding: 2rem;
+    }
+    .modal-seguro .modal-seg p.fechar{
+        right: 2px;
+        z-index: 9999;
+    }
+    .modal-seguro .modal-seg .lista a{
+        line-height: 30px;
+    }
+    .mais, .menos{
+        margin-top: -10px;
+    }
+    .modal-seguro .carousel-cobertura .cell-cobertura{
+        width: 90%;
+    }
+    .modal-seguro .modal-seg .coberturas{
+        padding: 5rem 0 0;
+    }
+    .modal-seguro .modal-seg .a-maternidade .valor div{
+        width: 100%;
+    }
+    .modal-seguro .modal-seg .a-maternidade .valor div p{
+        text-align: center;
+        line-height: 37px;
+    }
+    .modal-seguro .modal-seg .prt-mulher p span{
+        height: auto;
+        line-height: inherit;
+    }
+    .modal-seguro .modal-seg .despesas{
+        width: 100%;
+    }
+    .modal-seguro .modal-seg .auxilio-f .arrow{
+        margin-left: 0;
+    }
+    .modal-seguro .modal-seg .coberturas .row,
+    .seguros .esp .coberturas .mrgt{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .modal-seguro .modal-seg p.fechar{
+        border: 1px solid #555;
+        background-color: #555;
+        color: #FFF;
+    }
+    .modal-seguro .modal-seg .despesas-itens{
+        margin-top: 0;
+    }
+    .modal-seguro .modal-seg .desp .imgs-valores{
+        margin-top: 60px;
+    }
+    .modal-seguro .modal-seg .mrgb{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .modal-seguro .modal-seg .arrows{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .modal-seguro .modal-seg .prt-mulher p.btns,
+    .modal-seguro .modal-seg .bem-estar p, .modal-seguro .modal-seg .bem-estar .borda p.evento{
+        line-height: initial;
+    }
+    .modal-seguro .modal-seg .bem-estar .borda p.evento{
+        margin-top: 25px;
+    }
+    .modal-seguro .modal-seg .bem-estar p img{
+        display: block;
+        margin: 0 auto;
+    }
+    .modal-seguro .modal-seg .prt-mulher .item svg, .modal-seguro .modal-seg .afastamento svg#Grupo_288{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 414px){
+    .modal-seguro .modal-seg .lista a{
+        font-size: 23px;
+    }
+    .modal-seguro .carousel-cobertura{
+        margin: 40px 0;
+    }
+    .modal-seguro .carousel-cobertura .cell-cobertura{
+        margin: 0;
+    }
+    
+    .modal-seguro .carousel-cobertura .cell-cobertura{
+        right: 0;
+        margin: 0 auto;
+    }
+    .modal-seguro .modal-seg .arrows{
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 375px){
+    .modal-seguro .carousel-cobertura .cell-cobertura{
+        height: 80vh;
+    }
+
+}

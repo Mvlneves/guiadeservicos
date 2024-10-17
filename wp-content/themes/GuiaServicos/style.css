@@ -1,0 +1,14 @@
+/*!
+ Theme Name: Guia de Serviços Alphaville
+Theme URI: https://webdesignrs.com
+Description: tema padrão para projetos de wordpress
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: movie, blog, magazine, db, 
+Text Domain: Guia de Serviços Alphaville
+*/
+
+/* depois chamar min/main.css*/
+@import './assets/css/main.css';
+/*# sourceMappingURL=css/style.css.map */

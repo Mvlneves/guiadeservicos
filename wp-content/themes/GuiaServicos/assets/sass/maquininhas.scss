@@ -1,0 +1,341 @@
+.maquininhas{
+    overflow: hidden;
+    p {
+        font-size: 26px;
+    }
+    .sec-banner{
+        img{
+            height: auto;
+            width: 100%;
+            margin-top: 28px;
+        }
+        .mob{
+            display: none;
+        }
+    }
+    .sec-info {
+        background: #FDEDE9;
+        h2 {
+            color: #EB0033;
+            font-size: 56px;
+            max-width: 80%;
+            font-weight: 700;
+            letter-spacing: -2px;
+            text-align: left;
+        }
+        h3 {
+            color: #EB0033;
+            font-size: 28px;
+            font-weight: 600;
+        }
+        ul {
+            margin-bottom: 30px;
+            list-style: disc;
+            list-style-position: outside;
+            padding: 30px 0;
+            padding-left: 25px;
+
+            li {
+                font-size: 23px;
+                line-height: 1.5;
+            }
+        }
+        a {
+            border-radius: 18px;
+            background-color: #EB0033;
+            padding: 15px 25px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+        .custom {
+            margin-bottom: 30px;
+            list-style: disc;
+            list-style-position: outside;
+            padding-left: 25px;
+            li {
+                background: url(../images/maquininhas/ifood-lp-maquininhas-list-check.png) no-repeat 7px 7px transparent;
+                font-size: 21px;
+                list-style-type: none;
+                margin: 0px;
+                margin-bottom: 35px;
+                padding: 15px 0px 0px 90px;
+                vertical-align: middle;
+                span {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    .sec-carrossel {
+        h2 {
+            color: #600213;
+            font-size: 40px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .maquininhas-carrossel {
+            height: 30.125rem;
+    
+            .flickity-viewport {
+                height: 100% !important;
+            }
+            .flickity-page-dots {
+                bottom: 0px;
+                .dot {
+                    background: #890119;
+                    height: 18px;
+                    width: 18px;
+                }
+            }
+        }
+        .item-maquininhas {
+            background-color: #EB0033;
+            border: 1px solid #EB0033;
+            border-radius: 25px;
+            margin-right: 50px;
+            padding: 25px 35px;
+            width: 400px;
+            height: 85%;
+            .title {
+                height: 150px;
+            }
+            img {
+                height: 150px;
+                padding-bottom: 25px;
+                position: relative;
+                top: -25px;
+                right: -20px;
+            }
+            h3 {
+                color: #FFFFFF;
+                font-size: 28px;
+                font-weight: 600;
+                padding-bottom: 15px;
+            }
+            span {
+                color: #FFFFFF;
+            }
+            p{
+                color: #FFFFFF;
+                font-size: 16px;
+                a {
+                    color: #FFFFFF;
+                    font-weight: 700;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .sec-video {
+        background-color: #FFFAF0;
+        position: relative;
+        h2 {
+            color: #600213;
+            font-size: 40px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .bordared {
+            border: 2px solid #EB0033;
+            border-radius: 35px;
+
+            iframe {
+                border-radius: 25px;
+                height: 590px;
+            }
+        }
+    }
+    .sec-perguntas{
+        padding: 0;
+        background: no-repeat #FFFFFF right;
+        h2{
+            font-family: 'sul_sansbold';;
+            font-size: 40px;
+            font-weight: 700;
+            color: #EB0033;
+        }
+        a{
+            color: #EB0033;
+            font-family: 'sul_sansbold';;
+            text-decoration: underline;
+            font-size: 1em;
+        }
+        p{
+            font-size: 24px;
+        }
+        ol{
+            li{
+                font-family: 'sul_sansbold';;
+                color: #000000;
+                font-size: 24px;
+            }
+        }
+        .collapse.in{
+            display: block;
+        }
+        .borda{
+            background-color: #FFFFFF;
+            border-radius: 20px;
+            border: 2px solid #EB0033;
+            margin-bottom: 1rem!important;
+            padding: 15px 20px;
+        }
+        .canal.collapsed{
+            .seta{
+                display: inline-block;
+            }           
+            .seta-up{
+                display: none;
+            }
+        }
+        .canal{
+            display: block;
+            width: 100%;
+            color: #242424;
+            text-decoration: none;
+            position: relative;
+            span{
+                color: #ffffff;
+                font-size: 26px;
+                font-weight: 600;
+            }
+            img{
+                position: absolute;
+                right: 10px;
+                top: 6px;
+            }
+            .seta{
+                display: none;
+            }
+            .seta-up{
+                display: inline-block;
+            }
+        }
+        .pergunta{
+            p{
+                color: #ffffff;
+                padding: 10px;
+            }
+            ol{
+                margin-left: 38px;
+                li{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 540px){
+    .maquininhas{
+        p {
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 18px !important;
+        }
+        .sec-banner{
+            padding: 0;
+            img {
+                margin-top: 0;
+            }
+            .col-lg-12{
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .mob{
+                display: block;
+            }
+            .desk{
+                display: none;
+            }
+        }
+        .sec-info {
+            h2 {
+                font-size: 32px !important;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            ul {
+                padding-bottom: 1px;
+                li {
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                }
+            }
+            .custom {
+                padding: 0;
+                li {
+                    background: url(../images/maquininhas/ifood-lp-maquininhas-list-check-mobile.png) no-repeat 0px 3px transparent;
+                    font-size: 16px;
+                    padding: 0px 0px 0px 30px;
+                }
+            }
+        }
+        .sec-carrossel {
+            .maquininhas-carrossel {
+                height: 30.125rem;
+                .flickity-viewport {
+                    height: 100% !important;
+                }
+                .flickity-page-dots {                   
+                    .dot {
+                        height: 10px;
+                        width: 10px;
+                    }
+                }
+            }
+            .item-maquininhas {
+                width: 340px;
+                height: 90%;
+                .title {
+                    height: 125px;
+                }
+                h3 {
+                    font-size: 24px;
+                }
+            }
+        }
+        .sec-video {
+            .bordared {
+                iframe {
+                    height: auto;
+                }
+            }
+        }
+        .sec-perguntas{
+            background-image: none !important;
+            p {
+                font-size: 16px;
+            }
+            .canal{
+                span{
+                    max-width: 85%;
+                    display: block;
+                    font-size: 1rem;
+                }
+                img{
+                    position: absolute;
+                    right: 0px;
+                    top: 4px;
+                    width: 15px;
+                }
+            }
+            .pergunta {
+                ol {
+                    li {
+                        font-size: 16px;
+                    }
+                }
+                ul {
+                    li {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

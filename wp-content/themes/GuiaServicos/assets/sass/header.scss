@@ -1,0 +1,1092 @@
+/*menu mobile*/
+
+@media (max-width: 79.9375em){
+    .main_header {
+        display: block;
+        width: 100%;
+        padding: 15px 0px;
+        border-bottom: 1px solid #fbfbfb;
+        box-shadow: 0px 0px 2px 3px rgba(233,233,233,0.41);
+        position: fixed;
+        background: #FFF;
+        z-index: 3;  
+        top: 0;
+
+        .container-header {
+            width: 1550px;
+            max-width: 100%;
+            padding-left: 2rem;
+            padding-right: 0;
+        }
+    }
+    .header-col-logo {
+        display: block;
+        float: left;
+        width: 50%;
+
+        img{
+            max-width: 75%;
+        }
+    }
+
+    .header-col-logo a img {
+        width: 70px;
+    }
+    .show-logo {
+        position: relative;
+        z-index: 9999;
+    }
+    /* menu mobile 3*/
+    .mobile-nav-button {
+        position: absolute;
+        margin: 8px 20px 5px 5px;
+        right: 0;
+        top: 0;
+        z-index: 9999;
+        cursor: pointer;
+        width: 33px;
+        height: 30px;
+    }
+    .mobile-nav-button.close-menu {
+        border-radius: 50px;
+        padding: 5px 3px;
+        width: 35px;
+        height: 35px;
+    }
+    .mobile-nav-button .mobile-nav-button__line {width: 80%;height: 3px;background: $color-red;border: 1px solid $color-red;position: relative;transition: 1s ease;}
+    .mobile-nav-button .mobile-nav-button__line:nth-of-type(2) {margin: 0.4rem 0;}
+    
+    .mobile-nav-button .mobile-nav-button__line--1 {transform: rotate(45deg);top: 13px;position: absolute;}
+    .mobile-nav-button .mobile-nav-button__line--2 {display: none;}
+    .mobile-nav-button .mobile-nav-button__line--3 {transform: rotate(135deg);top: 13px;position: absolute;}
+    
+    .mobile-menu-three {
+        display: block;
+        max-width: 500px;
+        width: 100%;
+        right: -100%;
+        height: 100vh;
+        background: #ffffff;
+        position: fixed;
+        z-index: 9998;
+        transition: 0.6s ease;
+        top: 0;
+        opacity: 0;
+
+        ul{ 
+            display: block;
+            float: left;
+            width: 90%;
+            margin: 95px 5%;
+
+                li{
+                    display: block;
+                    margin: 10px 0px 15px 0px;
+                    position: relative;
+                    z-index: 1;
+                    cursor: pointer;
+                    font-family: 'TipoiFoodTextos-Regular';
+                    color: #053068;
+                    font-size: 18px;
+                    border-top: 1px solid #F1F1F1;
+                    padding-top: 25px;
+        
+                    a{
+                        cursor: pointer;
+                        font-family: 'TipoiFoodTextos-Bold';
+                        color: #000;
+                        font-size: 22px;
+        
+                        &:hover{
+                            text-decoration: none;
+                            color: $color-red;
+                        }
+                        img{
+                            width: 30px;
+                            padding-right: 10px;
+                        }
+                        span{
+                            width: 25px;
+                            height: 25px;
+                            border-radius: 50%;
+                            background-color: #EA1D2C;
+                            color: #FFF;
+                            font-size: 10px;
+                            position: absolute;
+                            top: 14px;
+                            text-align: center;
+                            display: inline-block;
+                            left: 5px;
+                            line-height: 25px;
+                        }
+                    }
+
+                    .sub-nav-header {
+                        display: block;
+                        float: left;
+                        margin: 10px 10px 0px 30px;
+
+                        div {
+                            display: block;
+                            float: left;
+                            width: 100%;
+
+                            li {
+                                margin: 8px 32px 8px 0px;
+                                a{
+                                    color: $color-black;
+                                    font-family: 'TipoiFoodTextos-Regular';
+                                    font-size: 16px;
+                                    
+                                    &:hover{
+                                        text-decoration: none;
+                                        color: $color-black;
+                                    }
+
+                                    span{
+                                        display:none
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+
+                }
+                #cookie-continue{
+                    .sub-nav-header{
+                        display: none;
+                    }
+                }
+                .menu-mobile-box {
+                    display: block;
+                    width: 100%;
+                    margin: 20px 0px 5px 0px;
+                    position: fixed;
+                    bottom: 120px;
+
+                    .icon-sobre{
+                        display: none;
+                    }
+                    .link-blue {
+                        float: left;
+                        display: block;
+                        width: 50%;
+
+                        a{
+                            color: #598DB3;
+                        }
+                    }
+                }
+            
+                .menu-mobile-icons-box {
+                    position: fixed;
+                    bottom: 20px;
+                    display: block;
+                    width: 100%;
+                }
+                
+                .menu-mobile-icons-box img {
+                    margin: 5px 22px 5px 0;
+                    width: 30px;
+                }    
+  
+        }
+
+    }
+    .mobile{
+        ul{
+            li{
+                margin: 10px 0 0;
+            }
+        }
+    }
+   
+    .mobile-menu-three .main_header_nav {position: relative;top: 50%;transform: translateY(-50%);padding: 0;}
+    
+    .mobile-menu-three .main_header_nav .main_header_nav_item{list-style: none;}
+    
+    .mobile-menu-three .main_header_nav .main_header_nav_item a {
+        width: 100%;
+        max-width: 1200px;
+        margin: 40px auto;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: #0e0e0e;
+        font-size: 1.6em;
+        font-weight: bold;
+        overflow: hidden;
+        position: relative;
+    }
+    /* aqui outro efeito .mobile-menu ul li a:hover {background: #000;}*/
+    
+    .mobile-menu-three .main_header_nav .main_header_nav_item a:after {content: '';background: linear-gradient(-40deg, #5c69ff, #5ea0ff);width: 100%;height: 100%;position: absolute;right: -100%;top: 0;z-index: -1;transition: 0.4s ease;}
+    
+    .mobile-menu-three .main_header_nav .main_header_nav_item a:hover {color: #fff;}
+    .mobile-menu-three .main_header_nav .main_header_nav_item a:hover:after {color: #fff;right:0;}
+    
+    .text {max-width: 800px;margin: 0 auto;display: block;text-align: center;}
+    
+    
+    .mobile-menu--open {right: 0;opacity: 1;}
+    /* fim menu mobile 3*/
+    .header-col-link {
+        display: none;
+    }
+    .col-link-interna{
+        display: block;
+        float: right;
+        width: 50%;
+
+        div{
+            display: block;
+            float: right;
+           
+            
+            p{
+                font-size: 15px;
+                margin: 25px 0px 0px 0px;
+                a{
+                    font-family: 'TipoiFoodTextos-Regular';
+                    color: $color-black;
+                    position: relative;
+                    z-index: 1;
+                    
+                    span{
+                        font-family: 'TipoiFoodTextos-Regular';
+                    }
+                    &:hover{
+                        text-decoration: none;
+                        color: $color-red;
+                    }
+                }
+            }
+        }
+    }
+
+    .lupa{
+        float: right;
+        width: 20px;
+        margin-top: 7px;
+        cursor: pointer;
+        margin-right: 70px;
+    }
+
+    #busca-topo{
+        position: fixed;
+        top: 0;
+        left: 0;   
+        right: 0;
+        bottom: 0;
+        height: 60vh;
+        width: 100%;
+        background-color: rgba(255,255,255,0.97);
+        display: none;
+        z-index: 99;
+
+        .fechar{
+            position: absolute;
+            right: 30px;
+            top: 75px;
+            cursor: pointer;
+            font-family: 'TipoiFoodTextos-Bold';
+            font-size: 35px; 
+        }
+
+        #form-open{
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 10rem 3rem;
+
+            input{
+                width: 95%;
+                border: none;
+                border-bottom: 1px solid #444;
+                font-family: 'TipoiFoodTextos-Regular';
+                font-size: 14px;
+                height: 35px;
+                background-color: transparent;
+            }
+            .search-submit{
+                float: right;
+                margin-top: 0;
+                border: none;
+                z-index: 1;
+                position: relative;
+                padding: 6px 0px 6px 25px;
+                border-radius: 0px 32px 32px 0px;
+                cursor: pointer;
+                margin-left: -75px;
+                background-color: transparent;
+                
+                img{
+                    width: 20px;
+                }           
+            }
+        }
+    } 
+    #modal-direcao{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 99;
+        display: none;
+        .content-modal{
+            width: 100%;
+            margin: 0 auto;
+            position: absolute;
+            left:0;
+            right: 0; 
+            bottom: 0;
+            background-color: #FFF;
+            padding: 2rem;
+            border-top-left-radius: 25px;  
+            border-top-right-radius: 25px; 
+            text-align: center;
+            h3, h4{
+                text-align: center;
+            } 
+            h4{
+                color: #505050;
+            }
+            p{
+                span{
+                    font-size: 12px;
+                    color: #5050507A;
+                    display: block;
+                    line-height: 12px;
+                    margin: 5px 0;
+                }
+            }
+            img{
+                width: 20px;
+                float: right;
+                margin-top: -15px;
+            }
+            .box-w{
+                .box-inline{
+                    width: 100%;
+                    margin: 15px 5px;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .location{
+            display: none;
+
+            .box{
+                padding: 10px 5px;
+                border: 1px solid #D4D4D4;
+                border-radius: 20px;
+                
+                p{
+                    font-family: 'TipoiFoodTextos-Regular';
+                    margin-bottom: 0;
+                }
+                .aceito{
+                    background-color: #EA1D2C;
+                    cursor: pointer;
+                    width: fit-content;
+                    padding: 5px 25px;
+                    margin: 0 auto;  
+                    border: none;
+                    border-radius: 10px;
+                    color: #FFF;
+                    font-family: 'TipoiFoodTextos-Regular';
+                }
+                .naoaceito{
+                    background-color: #c7c7c7;
+                    cursor: pointer;
+                    width: fit-content;
+                    padding: 5px 25px;
+                    margin: 0 auto;  
+                    border: none;
+                    border-radius: 10px;
+                    font-family: 'TipoiFoodTextos-Regular';
+                }
+            }
+        }  
+        .tipo_acesso {
+            display: none; 
+            .box {
+                padding: 10px 5px;
+                border: 1px solid #D4D4D4;
+                border-radius: 20px;
+                p {
+                    font-family: 'TipoiFoodTextos-Regular';
+                    margin: 10px 0; 
+                }
+                
+                .aceito2 {
+                    background-color: #EA1D2C;
+                    cursor: pointer;
+                    width: -webkit-fit-content;
+                    width: -moz-fit-content;
+                    width: fit-content;
+                    padding: 5px 25px;
+                    margin: 0 auto;
+                    color: #FFF;
+                    border: none;
+                    border-radius: 10px;
+                    margin-top: 15px;
+                    font-family: 'TipoiFoodTextos-Regular'; 
+                }
+
+                .naoaceito2 {
+                    background-color: #c7c7c7;
+                    cursor: pointer;
+                    width: -webkit-fit-content;
+                    width: -moz-fit-content;
+                    width: fit-content;
+                    padding: 5px 25px;
+                    margin: 0 auto;
+                    margin-top: 15px;
+                    border: none;
+                    border-radius: 10px;
+                    font-family: 'TipoiFoodTextos-Regular'; 
+                }
+            }
+        }      
+    }
+    .mob{
+        display: inline-block;
+    }     
+}
+
+    /*
+1280px breakpoint
+*/
+@media (min-width: 80em){
+    
+    .mobile-nav-button{display: none;}
+
+    .main_header {
+        display: block;
+        width: 100%;
+        padding: 10px 0px;
+        border-bottom: 1px solid #fbfbfb;
+        //box-shadow: 0px 0px 2px 3px rgba(0, 42, 99, 60%);
+        //box-shadow: 0px 1px 9px 3px rgba(0,0,0,0.02);
+        position: fixed;
+        background: #FFF;
+        z-index: 3;  
+        top: 0;
+
+        .container-header {
+            width: 1550px;
+            max-width: 100%;
+            padding-left: 6rem;
+        }       
+    }
+    
+    .header-col-logo {
+        display: block;
+        float: left;
+        width: 20%;
+
+        .subtitulo_logo {
+            color: #E9202E;
+            display: inline;
+            font-family: 'TipoiFoodTextos-Regular';
+            font-size: 14px;
+            font-weight: 600;
+            position: absolute;
+            top: 27px;
+            margin-left: 10px;
+        }
+
+        img{
+            max-width: 45%;
+        }
+    }
+    .header-col-menu {
+        display: block;
+        float: left;
+        width: 80%;
+        margin-left: -15px;
+
+            .mobile-menu-three {
+                float: left;
+            }
+
+            ul{
+                display: block;
+                float: right;
+                margin: 20px 0px 0px 0px;
+            
+                li{
+                    display: inline-block;
+                    margin: 5px 5px 5px 0px;
+                    cursor: pointer;
+                    position: relative;
+                    z-index: 1;
+                    cursor: pointer;
+                    font-family: 'TipoiFoodTextos-Regular';
+                    color: $color-black;
+                    font-size: 16px;
+
+                    a{
+                        cursor: pointer;
+                        font-family: 'TipoiFoodTextos-Regular';
+                        color: $color-black;
+                        font-size: 13px;
+                        margin-right: 15px;
+
+                        &:hover{
+                            text-decoration: none;
+                            color: $color-red;
+                        }
+                    }
+                    
+                    .sub-nav-header {
+                        position: absolute;
+                        background: #fff;
+                        padding: 10px 20px 20px;
+                        border-radius: 20px;
+                        top: 5px;
+                        border-bottom: 1px solid #fbfbfb;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 0.4s;
+                        width: 300px;
+
+                        li {
+                            margin: 5px 32px 5px 0px;
+                            a{
+                                cursor: pointer;
+                                font-family: 'TipoiFoodTextos-Bold';
+                                color: $color-black;
+                                font-size: 17px;
+                                font-weight: normal;
+                                display: block;
+                                margin: 0px 0px 0px 10px;
+                                
+                                &:hover{
+                                    text-decoration: none;
+                                    color: $color-black;
+                                }
+
+                                span{
+                                    color: $color-black;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+
+                li.active{
+                    a{
+                        font-weight: bold;
+                        color: $color-red;
+                    }
+                }
+
+                .mob{
+                    display: none;
+                }
+
+                .mobile{
+                    display: none;
+                }
+
+                .menu-mobile-box {
+                    display: initial;
+                }
+                .menu-mobile-icons-box {
+                    display: none;
+                }
+            }
+
+            .app-header {
+                .app-btbn-header {
+                    width: 125px;
+                    margin: 15px 0 20px 0;
+                }
+            }
+    }
+
+    .sub-menu:hover .sub-nav-header {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .header-col-link {
+        display: block;
+        float: left;
+        width: 20%;
+
+        div{
+            display: block;
+            float: left;
+            color: $color-red;
+            font-family: "TipoiFoodTextos-Light";
+            font-size: 18px;
+            margin: 25px 0px 0px 0px;
+        }
+
+        a{
+            position: relative;
+            z-index: 1;
+
+            &:hover{
+                text-decoration: none;
+                color: $color-black;
+            }
+        }
+        
+    }
+    
+    .col-link-interna{
+        display: block;
+        float: right;
+        width: 20%;
+
+        div{
+            display: block;
+            float: left;
+           
+            
+            p{
+                font-size: 17px;
+                margin: 25px 0px 0px 0px;
+                a{
+                    font-family: 'TipoiFoodTextos-Regular';
+                    color: $color-black;
+                    position: relative;
+                    z-index: 1;
+                    
+                    span{
+                        font-family: 'TipoiFoodTextos-Regular';
+                    }
+                    &:hover{
+                        text-decoration: none;
+                        color: $color-red;
+                    }
+                }
+            }
+        }
+    }
+
+    .lupa{
+        float: left;
+        width: 20px;
+        margin-top: 25px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+
+    #busca-topo{
+        position: fixed;
+        top: 0;
+        left: 0;   
+        right: 0;
+        bottom: 0;
+        height: 60vh;
+        width: 100%;
+        background-color: rgba(255,255,255,0.97);
+        z-index: 99;
+        display: none;
+
+        .fechar{
+            position: absolute;
+            right: 50vh;
+            top: 25px;
+            cursor: pointer;
+            font-family: 'TipoiFoodTextos-Bold';
+            font-size: 35px; 
+        }
+
+        #form-open{
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 10rem;
+            input{
+                width: 75%;
+                border: none;
+                border-bottom: 2px solid #444;
+                font-family: 'TipoiFoodTextos-Regular';
+                font-size: 14px;
+                height: 35px;
+                background-color: transparent;
+            }
+            .search-submit{
+                float: right;
+                margin-top: 0;
+                border: none;
+                z-index: 1;
+                position: relative;
+                padding: 6px 25px;
+                cursor: pointer;
+                margin-left: -75px;
+                background-color: transparent;
+                
+                img{
+                    width: 20px;
+                }           
+            }
+        }
+    } 
+    #modal-direcao{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 99;
+        display: none;
+        .content-modal{
+            width: 70%;
+            margin: 0 auto;
+            position: absolute;
+            left:0;
+            right: 0; 
+            bottom: 0;
+            background-color: #FFF;
+            padding: 2rem;
+            border-top-left-radius: 25px;  
+            border-top-right-radius: 25px; 
+            text-align: center;
+            h3, h4{
+                text-align: center;
+            } 
+            h4{
+                color: #505050;
+            }
+            p{
+                span{
+                    font-size: 12px;
+                    color: #5050507A;
+                    display: block;
+                    line-height: 12px;
+                    margin: 5px 0;
+                }
+            }
+            img{
+                width: 20px;
+                float: right;
+                margin-top: -15px;
+            }
+            .box-w{
+                .box-inline{
+                    width: 300px;
+                    margin: 15px 5px;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .location{
+            display: none;
+
+            .box{
+                padding: 10px 5px;
+                border: 1px solid #D4D4D4;
+                border-radius: 20px;
+                
+                p{
+                    font-family: 'TipoiFoodTextos-Regular';
+                    margin-bottom: 0;
+                }
+                .aceito{
+                    background-color: #EA1D2C;
+                    cursor: pointer;
+                    width: fit-content;
+                    padding: 5px 25px;
+                    margin: 0 auto;  
+                    border: none;
+                    border-radius: 10px;
+                    color: #FFF;
+                    font-family: 'TipoiFoodTextos-Regular';
+                }
+                .naoaceito{
+                    background-color: #c7c7c7;
+                    cursor: pointer;
+                    width: fit-content;
+                    padding: 5px 25px;
+                    margin: 0 auto;  
+                    border: none;
+                    border-radius: 10px;
+                    font-family: 'TipoiFoodTextos-Regular';
+                }
+            }
+        }  
+        .tipo_acesso {
+            display: none; 
+            .box {
+                padding: 10px 5px;
+                border: 1px solid #D4D4D4;
+                border-radius: 20px;
+                p {
+                    font-family: 'TipoiFoodTextos-Regular';
+                    margin: 10px 0; 
+                }
+                
+                .aceito2 {
+                    background-color: #EA1D2C;
+                    cursor: pointer;
+                    width: -webkit-fit-content;
+                    width: -moz-fit-content;
+                    width: fit-content;
+                    padding: 5px 25px;
+                    margin: 0 auto;
+                    color: #FFF;
+                    border: none;
+                    border-radius: 10px;
+                    margin-top: 15px;
+                    font-family: 'TipoiFoodTextos-Regular'; 
+                }
+
+                .naoaceito2 {
+                    background-color: #c7c7c7;
+                    cursor: pointer;
+                    width: -webkit-fit-content;
+                    width: -moz-fit-content;
+                    width: fit-content;
+                    padding: 5px 25px;
+                    margin: 0 auto;
+                    margin-top: 15px;
+                    border: none;
+                    border-radius: 10px;
+                    font-family: 'TipoiFoodTextos-Regular'; 
+                }
+            }
+        }      
+    } 
+}     
+
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1440px) {
+    /* insert styles here */
+        .main_header {
+            top: 0;
+
+            .container-header {
+                padding-left: 2rem;
+                padding-right: 0;
+            }
+    }
+
+    .header-col-menu {
+        .mobile-menu-three {
+            float: left;
+            margin-left: 50px;
+        }
+
+        ul {            
+            li {
+                margin: 5px 0px 5px 0px;
+            }
+        }
+    }    
+}
+
+/* (1280x1024) SXGA Display */
+@media  screen and (max-width: 1280px) {
+    /* insert styles here */
+    .header-col-menu {
+        margin-left: 0px;
+
+        .mobile-menu-three {
+            margin-left: 20px;
+        }
+
+        .app-header {
+            width: 13%;
+            display: inline-block;
+            margin: 15px 0 0 0;
+
+            .app-btbn-header {
+                margin: 0px 0 20px 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 120em){
+    .main_header {
+        padding: 20px 0px;
+        box-shadow: 0px 6px 16px #0000001c;
+        
+        .header-col-logo{
+            img{
+                max-width: 45%;
+            }
+        }
+    }
+    #modal-direcao{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 99;
+        display: none;
+        .content-modal{
+            width: 70%;
+            margin: 0 auto;
+            position: absolute;
+            left:0;
+            right: 0; 
+            bottom: 0;
+            background-color: #FFF;
+            padding: 2rem;
+            border-top-left-radius: 25px;  
+            border-top-right-radius: 25px; 
+            text-align: center;
+            h3, h4{
+                text-align: center;
+            } 
+            h4{
+                color: #505050;
+            }
+            p{
+                span{
+                    font-size: 12px;
+                    color: #5050507A;
+                    display: block;
+                    line-height: 12px;
+                    margin: 5px 0;
+                }
+            }
+            img{
+                width: 20px;
+                float: right;
+                margin-top: -15px;
+            }
+            .box-w{
+                .box-inline{
+                    width: 300px;
+                    margin: 15px 5px;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .location{
+            display: none;
+
+            .box{
+                padding: 10px 5px;
+                border: 1px solid #D4D4D4;
+                border-radius: 20px;
+                
+                p{
+                    font-family: 'TipoiFoodTextos-Regular';
+                    margin-bottom: 0;
+                }
+                .aceito{
+                    background-color: #EA1D2C;
+                    cursor: pointer;
+                    width: fit-content;
+                    padding: 5px 25px;
+                    margin: 0 auto;  
+                    border: none;
+                    border-radius: 10px;
+                    color: #FFF;
+                    font-family: 'TipoiFoodTextos-Regular';
+                }
+                .naoaceito{
+                    background-color: #c7c7c7;
+                    cursor: pointer;
+                    width: fit-content;
+                    padding: 5px 25px;
+                    margin: 0 auto;  
+                    border: none;
+                    border-radius: 10px;
+                    font-family: 'TipoiFoodTextos-Regular';
+                }
+            }
+        }  
+        .tipo_acesso {
+            display: none; 
+            .box {
+                padding: 10px 5px;
+                border: 1px solid #D4D4D4;
+                border-radius: 20px;
+                p {
+                    font-family: 'TipoiFoodTextos-Regular';
+                    margin: 10px 0; 
+                }
+                
+                .aceito2 {
+                    background-color: #EA1D2C;
+                    cursor: pointer;
+                    width: -webkit-fit-content;
+                    width: -moz-fit-content;
+                    width: fit-content;
+                    padding: 5px 25px;
+                    margin: 0 auto;
+                    color: #FFF;
+                    border: none;
+                    border-radius: 10px;
+                    margin-top: 15px;
+                    font-family: 'TipoiFoodTextos-Regular'; 
+                }
+
+                .naoaceito2 {
+                    background-color: #c7c7c7;
+                    cursor: pointer;
+                    width: -webkit-fit-content;
+                    width: -moz-fit-content;
+                    width: fit-content;
+                    padding: 5px 25px;
+                    margin: 0 auto;
+                    margin-top: 15px;
+                    border: none;
+                    border-radius: 10px;
+                    font-family: 'TipoiFoodTextos-Regular'; 
+                }
+            }
+        }      
+    }
+}
+@media (max-width: 820px){
+    .header-col-logo {
+
+        .subtitulo_logo {
+            color: #E9202E;
+            display: inline;
+            font-family: 'TipoiFoodTextos-Regular';
+            font-size: 14px;
+            font-weight: 600;
+            position: absolute;
+            top: 32px;
+        }
+    }
+}
+@media (max-width: 568px){
+    .location{
+        right: 5px;
+    }
+}
+@media (max-width: 360px){
+    .mobile-menu-three ul li{
+        margin: 10px 0px 20px 0px;
+    }
+}
+@media (max-width: 320px){
+    .mobile-menu-three ul{
+        margin: 80px 5%;
+    }
+    .mobile-menu-three ul li .sub-nav-header{
+        margin: 0px 10px 0px 30px; 
+        li{
+            margin: 10px 0px;
+        }
+    }
+    .mobile-menu-three ul li{
+        margin: 10px 0px 15px 0px;
+    }
+}

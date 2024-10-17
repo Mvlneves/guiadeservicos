@@ -1,0 +1,85 @@
+.aprovados{
+  .sec-banner{
+    img{
+      height: auto;
+      width: 100%;
+      margin-top: 28px;
+    }
+    .mob{
+      display: none;
+    }
+  }
+  .sec-conteudo,
+  .sec-aprovados {
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #E9202E;
+    }
+    h3 {
+      font-size: 1.5rem;
+      color: #eb9f08;
+    }
+    p {
+      color: #3E3E3E;
+      font-size: 18px;
+      line-height: 1.5;
+      a {
+        color: #3E3E3E;
+        text-decoration: underline;
+      }
+    }
+  }
+  .sec-aprovados {
+    table {
+      td,th {
+        text-align: center;
+      }
+    }
+    .auto-collapse {
+      tbody>tr {
+        display:none;
+        &.expanded {
+          display:table-row;
+        }
+      }
+      &.expanded {
+        tbody>tr {
+          display:table-row;
+        }
+        tfoot {
+          display: none;
+        }    
+      }
+    }
+  }
+}
+@media (max-width: 913px){}
+
+@media (max-width: 540px){
+  .aprovados{
+    .sec-banner{
+      padding: 0;
+      img {
+        margin-top: 0;
+      }
+      .col-lg-12{
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .mob{
+        display: block;
+      }
+      .desk{
+        display: none;
+      }
+    }
+    .sec-conteudo {
+      p {
+        color: #3E3E3E;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+  }
+}

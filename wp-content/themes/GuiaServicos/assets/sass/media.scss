@@ -1,0 +1,1003 @@
+@media (min-width: 1500px) and (max-width: 2560px){
+	.internas {
+		.banner{
+			 .content-banner{
+			 	top: 250px;
+			 }
+		}
+	}
+}
+@media (max-width: 1440px){
+
+	.mobile{
+		display: inline-block !important;
+	}
+
+	.modal{
+		.modal-content{
+			margin-top: 50px;
+		}
+	}
+
+	main{
+		.carousel-banner-home{
+		 	.banner{
+				height: 480px;
+				background-size: contain;
+				background-repeat: no-repeat;
+		 	}
+
+		 	.play-video{
+				top: 145px;
+		 	}
+		}
+	}
+
+	.internas{
+		.banner{
+			.img-banner{
+				height: 450px;
+				background-size: cover;
+			}
+		}
+	}
+	.internas {
+		.banner{
+			 .content-banner{
+			 	top: 250px;
+			 }
+		}
+	}
+}
+
+@media (max-width: 1330px){
+	.internas {
+		.banner{
+			 .content-banner{
+			 	bottom: 35%;
+			 }
+		}
+	}	
+}
+
+@media (max-width: 1280px){
+	.desktop{
+		display: none !important;
+	}	
+	.internas{
+		.banner{
+			.content-banner{
+				top: 250px;
+			}
+		}
+	}
+}
+
+@media (max-width: 1024px){
+	main {
+	    margin-top: 80px;
+
+	    .carousel-banner-home{
+	    	.banner{
+	    		height: 450px;
+			    background-size: cover;
+			    background-position: center;
+	    	}
+
+	    	.content-banner{
+	    		p.title{
+				    color: #FFF;
+				    font-family: 'TipoiFoodTitulos-Bold';
+				    font-size: 30px;
+				    max-width: 70%;
+				    padding-left: 40px;
+				}
+
+			    p.subtitle{
+			    	font-size: 14px;
+    				padding-left: 40px;
+			    }
+			}
+		}
+
+		#form-open{
+			margin: 60px 40px 0;
+		}
+
+		.vantagens{
+			 .item-vantagens{
+			 	img{
+			 		width: 90px;
+			 	}
+			 }
+
+			.content-vantagens{
+				padding: 25px 10px 0;
+    			max-width: 100%;
+
+    			p.title {
+				    font-size: 23px;
+				    margin-bottom: 5px;
+				}
+
+				h2 {
+					padding-left: 0;
+				}
+
+				.text-general{
+					padding-top: 0px;
+					padding-left: 0px;
+				}
+			}
+		}
+
+		.banner-entregas{
+			.img-banner {
+			    height: 350px;
+			    background-size: 210%;
+			    background-position: center;
+			}		
+
+			.content-banner{
+				bottom: -110px;
+
+				p.title{
+					font-size: 35px;
+				    max-width: 70%;
+				    padding-left: 15px;
+				}
+
+				p.subtitle{
+					font-size: 14px;
+				    line-height: 17px;
+				    max-width: 80%;
+				    padding-left: 20px;
+				    margin-bottom: 5px;
+				}
+
+				a{
+					margin-left: 20px;
+					font-size: 14px;
+				}
+			}
+		}
+
+		.entregamos{
+			background: url(../images/Bg-Entregamos.png) no-repeat;
+			background-size: 35%;
+			background-position: 97% 10px;
+			margin: 0 0 40px;
+			padding-top: 80px;
+
+			p.title{
+				font-size: 25px;
+			}
+
+			.numbers{
+				.number{
+					width: 45%;
+
+					.content-number{
+						font-size: 12px;
+    					width: 125px;
+					}
+				}
+			}
+		}
+
+		.historias{
+			margin: 20px 0 40px;
+
+			p.title{
+				font-size: 20px;
+			}
+
+			p.subtitle{
+				font-size: 14px;
+			}
+
+			.carousel-videos{
+				.banner{
+					height: 280px;
+				}
+
+				.play-video{
+					width: 60px;
+					top: 80px;
+				}
+
+				.content-banner{
+					bottom: -10px;
+
+					p.title{
+						font-size: 20px;
+    					max-width: 70%;
+					}
+
+					p.subtitle{
+						font-size: 13px;
+					}
+				}
+			}
+
+			.flickity-page-dots{
+				.dot{
+					width: 65px;
+				}
+			}
+		}
+
+		.mais-lidas{
+			.posts-cell{
+				width: 75%;				
+			}
+
+			.posts-cell.is-selected{
+				margin: 15px 0px;
+			}
+
+			p.title{
+				font-size: 25px;
+			}
+		}
+
+		.todas-noticias{
+			p.title{
+				font-size: 25px;
+			}
+
+			a.category-link{
+			    padding: 10px 14px 7px;
+			    margin: 5px 2px 0px 0px;
+			    font-size: 11px;
+			}
+
+			.posts.posts-interno,
+			.posts{
+				.post{
+					width: 100%;
+					border-top: 1px dashed #F1F1F1;
+					border-bottom: none;
+					padding-top: 25px;
+
+					.content-post{
+						width: 48.5%;
+						margin: 0;
+						padding-left: 15px;
+
+						.categories{
+							font-size: 12px;
+						}
+
+						.title-post{
+							font-size: 13px;
+						    padding-right: 0;
+						}
+					}
+
+					.image-post{
+						width: 48.5%;
+    					display: inline-block;
+
+						img{
+							border-radius: 10px;
+							height: 70px;
+						}
+					}
+				}
+			}
+		}
+
+		.todas-noticias{
+			.posts.posts-interno{
+				.post{
+					margin-left: -10px;
+				}
+			}
+		}
+
+		.regras{
+			margin: 40px 0 40px;
+			background: url(../images/Bg-Regras.png) no-repeat #F1F1F1;
+			background-size: 35%;
+			background-position: 97% 10px;
+
+			p.title{
+				font-size: 20px;
+			}
+		}
+
+		.lista-videos{
+		    .videos {
+		    	margin: 30px 0 0 0px;
+			}
+		}
+
+		.dicas{
+			.book-img{
+				display: inline-block;
+				width: 35%;
+			}
+			.book-delivery{
+				display: inline-block;
+				width: 60%;
+			}
+
+			p.title {
+    			font-size: 13px;
+			    margin-top: 35px;
+			}
+
+			p.subtitle{
+				font-size: 13px;
+			}
+
+			a {
+			    padding: 8px 8px;
+			    margin-top: -10px;
+			    font-size: 14px;			
+			}
+		}
+
+		.lista-videos{
+			.historias-interna{
+				margin: 30px 0 0 0px;
+			}
+		}		
+	}
+
+	.internas{
+		p.title{
+			font-size: 20px;
+		}
+
+		.content-second{
+			max-width: 100%;
+    		padding-right: 30px;
+		}
+
+		.banner{
+			.img-banner {
+    			height: 240px;
+			}
+
+			.content-banner{
+				top: 80px;
+				position: relative;
+
+				p.title {
+					font-size: 27px;
+					max-width: 85%;
+					line-height: 35px;
+					padding-left: 30px;
+				}
+			}
+		}
+
+		.content-second {
+    		margin: 20px 0 0px;
+			 iframe{
+			 	height: 180px;
+			 }    		
+    	}
+
+		.relacionadas{
+			padding: 20px 0;
+			.post{
+				width: 100%;
+				border-top: 1px dashed #F1F1F1;
+				border-bottom: none;
+				padding: 25px 0;
+				margin: 0;
+
+				.content-post{
+					width: 60.5%;
+					display: inline-block;
+					vertical-align: top;
+					padding-left: 15px;
+
+					.categories{
+						font-size: 12px;
+						margin: 0px 0 10px;
+					}
+
+					.title-post{
+						font-size: 13px;
+					    padding-right: 0;
+					}
+				}
+
+				.image-post{
+					width: 36.5%;
+					display: inline-block;
+					vertical-align: middle;
+					height: auto;
+					img{
+						border-radius: 10px;
+					}
+				}
+				.image-post.desk{
+					display: none;
+				}
+				.image-post.mob{
+					display: inline-block;
+				}
+			}
+		}		
+
+		.content-page{
+			.item-dicas{
+				.content{
+					width: 100%;
+				}
+
+				.image{
+					display: none;
+				}
+			}
+
+			.accordion-toggle.collapsed{
+				.seta{
+    				margin-right: -45px;
+				}
+			}
+
+			.accordion-toggle{
+				p{
+					font-size: 14px;
+    				padding-right: 60px;
+				}
+
+				.seta-up{
+    				margin-right: -45px;
+				}	
+				
+				img{
+					margin-top: 5px;
+				}			
+			}
+
+			.item{
+				img{
+					vertical-align: top;
+				}
+			}
+
+			.answer{
+				p{
+					font-size: 14px;
+				}
+			}
+
+			.answer.full{
+				iframe{
+					height: 180px;
+				}
+			}
+
+			a.link-regulamento{
+				font-size: 14px;
+			}
+
+			.su-column-size-1-4.app-details,
+			.su-column-size-1-3.app-details{
+				width: 85%;
+			}
+
+			.regras-details{
+				.su-column-inner{
+					font-size: 13px;
+    				height: auto;
+				}
+			}
+
+			.box-content{
+				width: 100%;
+			}
+		}
+
+		.others-links-vantagens{
+			.links{
+				img{
+					width: 90px;
+				}
+			}
+		}		
+	}
+
+	.internas.post{
+		.access {
+    		margin-top: -40px;
+		}
+
+		#content-post{
+			#text-post{
+				iframe{
+					height: 180px;
+				}
+
+				#audimaWidget{
+					iframe{
+						height: 70px;
+					}
+				}				
+			}
+		}
+	}
+
+	.resultado{
+		p.title-results{
+			margin: 40px 0 0;
+		    font-size: 35px;
+		}
+
+		.todas-noticias{
+			.posts {
+		    	margin-top: -35px;
+			}
+		}
+
+		#form-open {
+		    margin: 60px 5px 30px;
+		}
+	}
+
+	.error{
+		img.img-error{
+			max-width: 80%;
+		}
+
+		text-align: center;
+	}
+
+	.modal{
+		.modal-content{
+			width: 100%;
+
+			iframe{
+				height: 180px;
+			}
+		}
+	}
+}
+
+@media (max-width: 912px){
+	.internas.post{
+		.banner{
+			.img-banner{
+				height: 100%;
+			}
+		}
+	}
+}
+@media (max-width: 768px){
+	.internas {
+		.bg-cinza {
+			.termos{
+				height: 410px;
+
+				a{
+					left: 25%;
+				}
+			}
+		}
+	}
+
+	.quebrar-linha{
+        display: block;
+    }
+    .text-mob-center {
+        text-align: center;
+    }
+}
+@media (max-width: 568px){
+	.internas {
+		.bg-cinza {
+			.termos{
+				max-height: 250px;
+
+				a{
+					left: 50%;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	.internas.post{
+		.relacionadas{
+			.post{
+				.content-post{
+					width: 60.5%;
+				}
+				.image-post{
+					height: auto;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 467px){
+	main{
+		.carousel-banner-home{
+	    	.banner{
+	    		height: 400px;
+	    	}
+	    }
+
+	    .banner-entregas{
+	    	.img-banner{
+	    		height: 350px;
+			    background-size: 280%;
+			    background-position: center;
+	    	}
+	    }
+
+	    .vantagens {
+	    	.item-vantagens {
+			    display: inline-block;
+			    cursor: pointer;
+			}
+		}
+
+		.mais-lidas {
+			.posts-cell {
+				.content-post {
+				    color: #505050;
+				    font-family: 'TipoiFoodTextos-Light';
+				    font-size: 12px;
+				    padding: 10px 35px 0px 15px;
+				}
+			}
+		}
+
+		.mais-lidas {
+			.posts-cell {
+				.title-post {
+				    font-family: 'TipoiFoodTextos-Regular';
+				    font-size: 15px;
+				    color: #000000;
+				    padding: 0px 25px 0px 15px;
+				}
+			}
+		}
+
+		.entregamos {
+		    background: url(../images/Bg-Entregamos.png) no-repeat;
+		    background-size: 55%;
+		    background-position: 35% 10px;
+		    margin: 0 0 40px;
+		    padding-top: 230px;
+		}
+		.dicas a {
+		    padding: 8px 8px;
+		    margin-top: -10px;
+		    font-size: 12px;
+		}
+
+		.historias{
+			.flickity-page-dots{
+				.dot{
+					width: 55px;
+				}
+			}
+		}
+
+		.todas-noticias{
+			.posts.posts-interno{
+				.post{
+					.content-post{
+						width: 150px;
+					}
+				}
+			}
+
+			a.category-link {
+				padding: 10px 8px 7px;
+				margin: 5px 0px 0px 0px;
+				font-size: 10px;
+			}
+		}
+
+		.dicas{
+			p.subtitle{
+				font-size: 11px;
+			}
+
+			p.title {
+			    font-size: 12px;
+			    margin-top: 20px;
+			}
+		}
+	}
+
+	.internas{
+		.relacionadas{
+			.post{
+				.content-post {
+    				width: 190px;	
+				}
+			}	
+		} 
+
+		.banner{
+		 	.content-banner{
+		 		p.title{
+		 			max-width: 95%;
+		 		}
+		 	}
+		 	.img-banner{
+				height: 447px !important;
+			}
+		}
+			.post {
+				.banner {
+					.img-banner {
+						height: 240px;
+					}
+				}
+			}
+	}
+	.internas.post{
+		.banner{
+			.img-banner{
+				height: 100% !important;
+				img{
+					width: 100%;
+				}	
+			}
+		}
+    }
+	.internas.post{
+		.banner{
+			.img-banner{
+				height: 100% !important;
+			}
+		}
+	}
+    .tipo_acesso {
+        right: 5px;
+    }
+
+	.planejamento {
+
+		.item-agendamento {
+			width: 340px;
+		}
+	
+		.conteudo-inicio {
+
+			::after {
+				border-radius: 10px;
+				width: 30% ;
+				height: 5px ;
+			}
+
+			p {
+				font-size: 22px;
+			}
+		}
+		.cidades {
+			#pin {
+				width: 55px ;
+			}
+			#cidades {
+				font-size: 18px ;
+				line-height: 1;
+				text-align: center ;
+			}
+		}
+		.video {
+			
+			iframe {
+				height: auto ;
+				margin-top: 0px ;
+				margin-left: 10px;
+				box-shadow: 
+					rgb(248, 242, 233) -8px -19px 0px -3px,
+					rgb(146, 34, 177) -9px -19px,
+					rgb(248, 242, 233) -16px -32px 0px -3px,
+					rgb(146, 34, 177) -15px -32px;
+			}
+		}
+		
+		.duvidas {
+
+			h2 {
+				font-size: 20px;
+			}
+			p {
+				font-size: 16px;
+			}
+			.duvidas-carrossel {
+				height: 30rem;
+			}
+			.item-duvidas {
+				width: 340px;
+				height: 85%;
+			}
+		}
+	}
+}
+
+@media (max-width: 390px){
+	main{
+		.carousel-banner-home{
+	    	.banner{
+	    		height: 420px;
+	    	}
+	    }
+
+		.historias{
+			.flickity-page-dots{
+				.dot{
+					width: 60px;
+				}
+			}
+		}
+
+		.mais-lidas {
+			.posts-cell {
+				.title-post {
+				    font-family: 'TipoiFoodTextos-Regular';
+				    font-size: 15px;
+				    color: #000000;
+				    padding: 0px 25px 0px 15px;
+				}
+			}
+		}
+
+		.mais-lidas {
+			.posts-cell {
+				.is-selected {
+		    		margin: 15px 40px 15px 40px;
+	    		}
+	    	}
+	    }
+
+		.lista-videos {
+			.videos {
+				.content-banner {
+					p.title {
+					    color: #FFF;
+					    font-family: 'TipoiFoodTextos-Regular';
+					    max-width: 250px;
+					    padding-left: 50px;
+					    font-size: 22px;
+					    line-height: 20px;
+					    max-width: 350px;
+					}
+				}
+			}		
+		}
+
+		.mais-lidas {
+			.posts-cell {
+				.content-post p {
+				    line-height: 21px;
+				}
+			}	
+		}
+
+		.todas-noticias{
+			.posts.posts-interno{
+				.post{
+					.content-post{
+						width: 215px;
+					}
+				}
+			}
+
+			a.category-link {
+			    padding: 10px 9px 7px;
+			    font-size: 10px;
+			}			
+		}
+
+		#form-open{
+			input{
+				font-size: 12px;
+    			padding-left: 10px;
+			}
+
+			.search-submit{
+				margin-top: -40px;
+				padding: 6px 25px;
+			}
+		}
+	}	
+}
+
+
+@media (max-width: 360px){
+	main{
+		.carousel-banner-home{
+	    	.banner{
+	    		height: 400px;
+	    	}
+	    }
+
+		.historias{
+			.flickity-page-dots{
+				.dot{
+					width: 55px;
+				}
+			}
+		}
+
+		.mais-lidas {
+			.posts-cell {
+				.content-post p {
+				    line-height: 19px;
+				}
+			}	
+		}
+
+		.mais-lidas {
+			.posts-cell {
+				.content-post {
+				    color: #505050;
+				    font-family: 'TipoiFoodTextos-Light';
+				    font-size: 11px;
+				    padding: 10px 35px 0px 15px;
+				}
+			}
+		}
+
+		.mais-lidas {
+			.posts-cell {
+				.title-post {
+				    font-family: 'TipoiFoodTextos-Regular';
+				    font-size: 13px;
+				    color: #000000;
+				    padding: 0px 25px 0px 15px;
+				}
+			}
+		}
+
+		.todas-noticias{
+			.posts.posts-interno{
+				.post{
+					.content-post{
+						width: 190px;
+					}
+				}
+			}
+
+			a.category-link {
+				padding: 10px 8px 7px;
+				margin: 5px 0px 0px 0px;
+				font-size: 10px;
+			}
+		}
+
+		.dicas{
+			p.subtitle{
+				font-size: 11px;
+			}
+
+			p.title {
+			    font-size: 12px;
+			    margin-top: 20px;
+			}
+		}
+	}
+
+	.internas{
+		.relacionadas{
+			.post{
+				.content-post {
+    				width: 220px;	
+				}
+			}	
+		} 
+
+		 .banner{
+		 	.content-banner{
+		 		p.title{
+		 			max-width: 95%;
+		 		}
+		 	}
+		 }
+	}
+}

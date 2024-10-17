@@ -1,0 +1,719 @@
+body * {
+    -webkit-font-smoothing: antialiased;
+}
+.rotas-ponta{
+    .sec{
+        padding: 3rem 0;
+    }
+    p{
+        line-height: 2;
+        margin-bottom: 0;
+    }
+    h2{
+        font-size: 2em;
+        font-weight: 600;
+        color: #3e3e3e;
+    }
+    .sec-banner{
+        img{
+            width: 100%;
+        }
+    }
+    .rotate{
+        transform: rotateY(180deg);
+    }
+    .sec-rotas {
+        padding: 1em 0;
+
+        .title-rota-unico {
+            color: #890019;
+            font-weight: 700;
+            background-color: #FEC147;
+            padding: 12px;
+            border-radius: 25px;
+            font-size: 20px;
+        }
+        .title-rota {
+            color: #890019;
+            font-weight: 700;
+            background-color: #FEC147;
+            padding: 12px;
+            padding-right: 20px;
+            border-radius: 25px 0px 0px 25px;
+            font-size: 20px;
+            margin-right: -10px;
+        }
+        .icon {
+            width: 50px;
+            position: relative;
+            top: -5px;
+        }
+        .icon-unico {
+            width: 110px;
+            position: relative;
+            top: -3px;
+            margin-left: -10px;
+        }
+        .subtitulo-rota {
+            margin-top: 10px;
+        }
+        .lista-unico {
+            margin-top: 20px;
+        }
+        .lista {
+            margin-top: 10px;
+        }
+        .collapse.in{
+            display: block;
+        }
+        .canal.collapsed{
+            border-radius: 25px; 
+            .seta{
+                color: #890019;
+                display: inline-block;
+            }           
+
+            .seta-up{
+                display: none;
+            }
+        }
+        .canal{
+            background-color: #890019;
+            padding: 1rem;
+            display: block;
+            border-radius: 25px; 
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            margin-top: 20px;
+            .seta{
+                display: none;
+                float: right;
+            }
+
+            .seta-up{
+                display: inline-block;
+                float: right;
+            }
+        }
+        ul{
+            margin-left: 20px; 
+            li{
+                list-style: disc;
+                color: #3E3E3E;
+                font-size: 16px;
+                line-height: 1.5;
+            }
+        }
+        .pergunta{
+            background-color: #890019;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            ul{
+                margin-left: 20px; 
+                li{
+                    list-style: disc;
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    line-height: 1.5;
+                }
+            }
+        }
+        a{
+            font-weight: 700;
+            font-size: 1em;
+            color: #FFF;
+            text-decoration: none;
+        }
+        p{
+            color: #3E3E3E;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    }
+    
+    .sec-video {
+        background: url(../images/rota/desktop/entregador-ifood-rota-de-ponta-a-ponta-bg-video-desktop.png) no-repeat center;
+        background-size: cover;
+        width: 100%;
+
+        h2 {
+            color: #FFFFFF;
+        }
+        p {
+            color: #FFFFFF;
+        }
+
+        .iframe-container {
+
+            iframe {
+                border-radius: 30px;
+            }
+        }
+    }
+    .sec-lembretes{
+        position: relative;
+        padding-bottom: 4rem;
+        h2 {
+            font-size: 1.6em;
+            span {
+                color: #EB0033;
+            }
+        }
+        .inner{
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .box{
+            padding: 2rem 1.5rem;
+            border-radius: 15px;
+            margin: 15px 0;
+            position: relative;
+             -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            min-height: 280px;
+            h3{
+                font-size: 2em;
+                font-family: 'TipoiFoodTitulos-Bold';
+                color: #890019;
+                background-color: #FEC147;
+                width: fit-content;
+                margin: 0 auto;
+                padding: 10px 15px;
+                border-radius: 10px;
+            }
+            ul {
+                list-style: disc;
+                margin-left: 6px;
+                color: #890019;
+                li {
+                    line-height: 1.5;
+                    margin-bottom: 10px;
+                }
+            }
+            a{
+                position: absolute;
+                bottom: -15px;
+                display: block;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                width: fit-content;
+                border-radius: 25px;
+                font-weight: 700;
+                padding: 0.5rem 1rem;
+                color: #242323;
+                text-decoration: none;
+            }
+            p{
+                font-size: 16px;
+            }
+            div{
+                display: inline-block;
+                vertical-align: top
+            }
+            div.icone{
+                width: 12%;
+                img{
+                    vertical-align: top;
+                }
+            }
+            div.texto{
+                width: 85%;
+                p{
+                    font-size: 16px;
+                }
+            }
+            div.conteudo{
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+        .box-info{
+            top: 0;
+            display: none;
+            transform: rotateY(180deg);
+            min-height: 365px;
+            .j_close{
+                width: 15px;
+                cursor: pointer;
+                position: absolute;
+                top: 5px;
+                right: 5px;
+            }
+        }
+        .box-amarelo{
+            background-color: #F9F2E7;
+            text-align: center;
+            .icones {
+                height: 100px;
+            }
+            a{
+                color: #FFFFFF;
+                background-color: #eb0033;
+                img {
+                    padding-left: 10px;
+                }
+            }
+        }
+        .box-laranja{
+            background-color: #F9F2E7;
+            text-align: center;
+            .icones {
+                height: 100px;
+            }
+            a{
+                color: #FFFFFF;
+                background-color: #eb0033;
+                img {
+                    padding-left: 10px;
+                }
+            }
+        }
+        .box-rosa{
+            background-color: #F9F2E7;
+            text-align: center;
+            .icones {
+                height: 100px;
+            }
+            a{
+                color: #FFF;
+                background-color: #eb0033;
+                img {
+                    padding-left: 10px;
+                }
+            }
+        }
+        .border-amarelo{
+            border: 2px solid #F9F2E7;
+            background-color: #F9F7E7;
+            min-height: 280px;
+        }
+        .border-laranja{
+            border: 2px solid #F9F2E7;
+            background-color: #F9F7E7;
+            min-height: 280px;
+        }
+        .border-rosa{
+            border: 2px solid #F9F2E7;
+            background-color: #F9F7E7;
+            min-height: 280px;
+        }
+        .ponta {
+            width: 180px;
+            background-color: #EB0033;
+            color: #fff;
+            padding: 20px;
+            position: relative;
+            margin: 50px;
+            float: left;
+
+            &::after {
+                content: " ";
+                position: absolute;
+                right: -35px;
+                top: 0px;
+                border-top: 70px solid transparent;
+                border-right: none;
+                border-left: 35px solid #EB0033;
+                border-bottom: 70px solid transparent;
+            }
+            &::before {
+                content: " ";
+                border-left: 8px solid #EB0033;
+                height: 140px;
+                position: absolute;
+                left: -20px;
+                top: 0;
+            }
+
+            h2 {
+                color: #FEC147;
+            }
+            p {
+                color: #FFFFFF;
+            }
+        }
+    }
+    .sec-perguntas{
+        padding: 0;
+        background: no-repeat #890019 left;
+        h2{
+            color: #FFF;
+        }
+        .collapse.in{
+            display: block;
+        }
+        .canal.collapsed{
+            border-radius: 5px; 
+            .seta{
+                display: inline-block;
+            }           
+
+            .seta-up{
+                display: none;
+            }
+        }
+        .canal{
+            background-color: #f9f2e7;
+            padding: 1rem;
+            display: block;
+            border-radius: 5px; 
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            .seta{
+                display: none;
+                float: right;
+            }
+
+            .seta-up{
+                display: inline-block;
+                float: right;
+            }
+        }
+        ul{
+            margin-left: 20px; 
+            li{
+                list-style: disc;
+                color: #890019;
+                font-size: 16px;
+            }
+        }
+        ol{
+            margin-left: 20px;
+            li{
+                color: #890019;
+                font-size: 16px;
+            }
+        }
+        .pergunta{
+            background-color: #f9f2e7;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        a{
+            font-weight: 700;
+            font-size: 1em;
+            color: #890019;
+            text-decoration: none;
+        }
+        p{
+            color: #890019;
+            font-size: 16px;
+        }
+
+    }
+}
+@media (max-width: 913px){
+    .rotas-ponta{
+        .sec-lembretes{
+            .box{
+                min-height: auto;
+            }
+        }
+        .sec-rotasmob{
+            background-image: none !important;
+            .bg-mob{
+                width: 100%;
+            }
+            .pr-5{
+                padding-right: 15px !important;
+            }
+        }
+        .sec-perguntas{
+            background-image: none !important;
+            .bg-mob{
+                width: 100%;
+            }
+            .pr-5{
+                padding-right: 15px !important;
+            }
+        }
+    }
+}
+@media (max-width: 540px){
+    
+    .rotas-ponta{
+        .sec-rotasmob {
+        
+            .iconsmob-unico {
+                margin: 0 auto;
+                margin-bottom: 11px;
+            }
+            .iconsmob {
+                margin: 0 auto;
+            }
+            .title-rota-unico {
+                color: #890019;
+                font-weight: 700;
+                background-color: #FEC147;
+                padding: 12px;
+                border-radius: 25px;
+                font-size: 18px;
+            }
+            .title-rota {
+                color: #890019;
+                font-weight: 700;
+                background-color: #FEC147;
+                padding: 12px;
+                padding-right: 20px;
+                border-radius: 25px 0px 0px 25px;
+                font-size: 19px;
+                margin-right: -10px;
+            }
+            .title-rota-oferta {
+                color: #890019;
+                font-weight: 700;
+                background-color: #FEC147;
+                padding: 12px;
+                padding-right: 20px;
+                border-radius: 25px 0px 0px 25px;
+                font-size: 20px;
+                margin-right: -10px;
+            }
+            .title-rota-entrega {
+                color: #890019;
+                font-weight: 700;
+                background-color: #FEC147;
+                padding: 12px;
+                padding-right: 20px;
+                border-radius: 25px 0px 0px 25px;
+                font-size: 16px;
+                margin-right: -10px;
+            }
+            .icon {
+                width: 50px;
+                position: relative;
+                top: -5px;
+                display: inline-block;
+            }
+            .icon-unico {
+                width: 110px;
+                position: relative;
+                top: -3px;
+                margin-left: -10px;
+                display: inline-block;
+            }
+            .subtitulo-rota {
+                margin-top: 10px;
+            }
+            .lista-unico {
+                margin-top: 20px;
+            }
+            .lista {
+                margin-top: 10px;
+            }
+            .collapse.in{
+                display: block;
+            }
+            .canal.collapsed{
+                border-radius: 25px; 
+                .seta{
+                    display: inline-block;
+                }           
+    
+                .seta-up{
+                    display: none;
+                }
+            }
+            .canal{
+                background-color: #890019;
+                padding: 1rem;
+                display: block;
+                border-radius: 25px; 
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                .seta{
+                    display: none;
+                    float: right;
+                }
+                .seta-up{
+                    display: inline-block;
+                    float: right;
+                }
+            }
+            ul{
+                margin-left: 20px; 
+                li{
+                    list-style: disc;
+                    color: #3E3E3E;
+                    font-size: 16px;
+                    line-height: 1.5;
+                }
+            }
+            .pergunta{
+                background-color: #890019;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                ul{
+                    margin-left: 20px; 
+                    li{
+                        list-style: disc;
+                        color: #FFFFFF;
+                        font-size: 16px;
+                        line-height: 1.5;
+                    }
+                }
+            }
+            a{
+                font-weight: 700;
+                font-size: 1em;
+                color: #FFFFFF !important;
+                text-decoration: none !important;
+            }
+            p{
+                color: #3E3E3E;
+                font-size: 16px;
+                line-height: 1.5;
+            }
+        }
+        .sec-rotasmob{
+            .canal{
+                position: relative;
+                span{
+                    max-width: 90%;
+                    display: block;
+                }
+                .seta,
+                .seta-up{
+                    position: absolute;
+                    right: 15px;
+                    top: 20px;
+                }
+            }
+        }
+        .sec-video {
+            .iframe-container {
+                text-align: center;
+    
+                iframe {
+                    height: 195px !important;
+                }
+            }
+        }
+        .sec-lembretes {
+            h2 {
+                font-size: 1.3em;
+            }
+            .ponta {    
+                &::after {
+                    border-top: 140px solid transparent;
+                    border-bottom: 145px solid transparent;
+                }
+                &::before {
+                    height: 285px;
+                }
+            }
+        }
+        .sec-perguntas{
+            .canal{
+                position: relative;
+                span{
+                    max-width: 90%;
+                    display: block;
+                }
+                .seta,
+                .seta-up{
+                    position: absolute;
+                    right: 15px;
+                    top: 20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 375px){
+    .rotas-ponta{
+        .sec-rotasmob {
+            
+            .iconsmob-unico {
+                width: 50px;
+            }
+            .iconsmob {
+                width: 50px;
+            }
+            .title-rota {
+                padding: 12px 25px;
+                font-size: 16px;
+            }
+            .title-rota-unico {
+                padding: 12px 20px;
+                font-size: 15px;
+            }
+            .title-rota-entrega{
+                padding: 11px 25px;
+                font-size: 14px;
+            }
+            .title-rota-oferta{
+                padding: 12px 40px;
+                font-size: 16px;
+            }
+            .margin-mob {
+                margin-bottom: -4px;
+            }
+            .margin-mob-unico {
+                margin-bottom: 1px;
+            }
+            .icon-unico {
+                top: -2px;
+                margin-left: -8px;
+                width: 95px;
+            }
+        }
+        .sec-lembretes {
+            h2 {
+                font-size: 1.3em;
+            }
+            .ponta {    
+                &::after {
+                    border-top: 156px solid transparent;
+                    border-bottom: 160px solid transparent;
+                }
+                &::before {
+                    height: 319px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 360px){
+    .rotas-ponta{
+        .sec-rotasmob {
+            
+            .iconsmob-unico {
+                width: 50px;
+                margin-bottom: 6px;
+            }
+            .iconsmob {
+                width: 50px;
+            }
+            .title-rota {
+                padding: 12px 25px;
+                font-size: 10.7px;
+            }
+            .title-rota-unico {
+                padding: 12px 20px;
+                font-size: 10.7px;
+            }
+            .title-rota-entrega{
+                padding: 11px 23px;
+                font-size: 10.7px;
+            }
+            .title-rota-oferta{
+                padding: 12px 40px;
+                font-size: 10.7px;
+            }
+            .margin-mob {
+                margin-bottom: -4px;
+            }
+            .margin-mob-unico {
+                margin-bottom: -4px;
+            }
+            .icon-unico {
+                top: -2px;
+                margin-left: -8px;
+                width: 95px;
+            }
+        }
+    }
+}

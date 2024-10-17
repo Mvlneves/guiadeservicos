@@ -1,0 +1,162 @@
+/*menu mobile*/
+@media (max-width: 79.9375em){
+    .main_footer{
+        display: block;
+        width: 100%;
+        padding: 50px 0;
+        border-top: 5px solid $color-red;
+
+        p.sec-session{
+            margin-top: 30px;
+        }
+
+        img.logo-footer{
+            max-width: 80px;
+            margin-top: -50px;
+        }
+
+        h2{
+            color: $color-red;
+            font-family: 'TipoiFoodTextos-Bold';
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .line-top{
+            margin: 15px 15px 0px 15px;
+            padding-top: 25px;
+            border-top: 2px solid #e6e6e6;
+
+            li{
+                display: block;
+            }
+
+            a{
+                color: #6F6F6F;
+                margin-bottom: 15px;
+                font-size: 14px;
+                display: inline-block;
+
+                img{
+                    max-width: 150px;
+                }
+
+                &:hover{
+                    color: $color-red;
+                    text-decoration: none;
+                }
+            }            
+
+            p{
+                color: $color-red;
+                font-family: 'TipoiFoodTextos-Bold';
+                font-size: 16px;                
+            }
+
+            p.mgt{
+                margin-top: 30px;
+            }            
+        }
+
+        .redes-sociais{
+            a{
+                margin-right: 5px;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .right{
+            text-align: right;
+            margin-top: 22px;
+        }
+
+        p.copyright{
+            color: #6F6F6F;
+            font-family: 'sul_sanslight';
+            font-size: 14px;
+        }
+    }
+}
+
+/*footer*/
+    /*
+1280px breakpoint
+*/
+@media (min-width: 80em){
+    .main_footer{
+        display: block;
+        width: 100%;
+        padding: 50px 0;
+        border-top: 5px solid $color-red;
+
+        p.sec-session{
+            margin-top: 30px;
+        }
+
+        h2{
+            color: $color-red;
+            font-family: 'TipoiFoodTextos-Bold';
+            font-size: 22px;
+            margin-top: 20px;
+        }
+
+        .line-top{
+            margin: 30px 15px 15px 15px;
+            padding-top: 40px;
+            border-top: 2px solid #e6e6e6;
+
+            li{
+                display: block;
+            }
+
+            a{
+                color: #6F6F6F;
+                margin-bottom: 15px;
+                font-size: 14px;
+                display: inline-block;
+
+                img{
+                    max-width: 150px;
+                }
+
+                &:hover{
+                    color: $color-red;
+                    text-decoration: none;
+                }
+            }            
+
+            p{
+                color: $color-red;
+                font-family: 'TipoiFoodTextos-Bold';
+                font-size: 16px;                
+            }
+
+            p.mgt{
+                margin-top: 30px;
+            }            
+        }
+
+        .redes-sociais{
+            a{
+                margin-right: 5px;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .right{
+            text-align: right;
+            margin-top: 22px;
+        }
+
+        p.copyright{
+            color: #6F6F6F;
+            font-family: 'sul_sanslight';
+            font-size: 14px;
+        }
+    }
+
+}

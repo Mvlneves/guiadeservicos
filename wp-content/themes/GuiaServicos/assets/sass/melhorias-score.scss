@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+  }
+.melhorias-score{
+    .sec-banner{
+        img{
+            height: auto;
+            width: 100%;
+            margin-top: 28px;
+        }
+        .mob{
+            display: none;
+        }
+    }
+    .sec-conteudo {
+        p {
+            color: #3E3E3E;
+            font-size: 18px;
+            line-height: 1.5;
+            a {
+                color: #3E3E3E;
+                text-decoration: underline;
+            }
+        }
+    }
+    .sec-cardmelhorias {
+        position: relative;
+        h2 {
+            color: #3e3e3e;
+            font-size: 2em;
+            font-weight: 800;
+        }
+        h3 {
+            color: #EB0033;
+            font-family: 'TipoiFoodTextos-Bold';
+            font-size: 30px;
+            font-weight: 800;
+        }
+        p {
+            color: #3E3E3E;
+            font-size: 20px;
+            line-height: 1.5;
+            a {
+                color: #1A1A1A;
+                text-decoration: underline;
+            }
+        }
+        .bordared {
+            background-color: #FDEDE9;
+            border: 2px solid #000000;
+            box-shadow: rgba(0, 0, 0, 1) -5px 5px;
+            border-radius: 35px;
+            padding: 30px 40px;
+            .cinza {
+                color: #DCC5C0;
+                font-size: 30px;
+            }
+        }
+        ul {
+            list-style-type: disc;
+
+            li {
+                font-size: 16px;
+                line-height: 1.5;
+                font-family: 'TipoiFoodTextos-Bold';
+            }
+        }
+        .item-lista {
+            margin-left: 30px;
+            a {
+                display: contents;
+            }
+            .aumento-ganhos{
+                div{
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                div.icone{
+                    width: 5%;
+                    margin-top: 5px;
+                    img{
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+                div.texto{
+                    width: 94%;
+                    .icone-lista {
+                        padding-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .sec_melhorias {
+        #ancora1,
+        #ancora2,
+        #ancora3,
+        #ancora4,
+        #ancora5,
+        #ancora6,
+        #ancora7,
+        #ancora8 {
+            scroll-margin-top: 140px;
+        }
+        .botao-acordeon {
+            width: 100%;
+        }
+        .icone-seta {
+            width: 35px;
+            vertical-align: top;
+        }
+        h3{
+            font-family: 'TipoiFoodTitulos-Bold';
+            font-size: 32px;
+            font-weight: 800;
+            color: #EB0033;
+            display: inline-block;
+        }
+        a{
+            color: #ffffff;
+            font-family: 'TipoiFoodTextos-Bold';
+            text-decoration: underline;
+            font-size: 1em;
+        }
+        p{
+            font-size: 18px;
+        }
+        .titulo-perguntas {
+            padding-left: 30px;
+            img {
+                position: absolute;
+                top: 0;
+                left: 10px;
+            }
+        }
+        .collapse.in{
+            display: block;
+        }
+        .canal.collapsed{
+            .seta{
+                display: inline-block;
+            }           
+            .seta-up{
+                display: none;
+            }
+        }
+        .canal{
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            position: relative;
+            background-color: #3E3E3E;
+            border-radius: 10px;
+            color: #F9F2E8;
+            padding: 10px 16px;
+            width: 270px;
+            span{
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            img{
+                position: absolute;
+                top: 12px;
+                left: 10px;
+            }
+            .seta{
+                display: none;
+            }
+            .seta-up{
+                display: inline-block;
+            }
+        }
+        .pergunta{
+            p{
+                color: #ffffff;
+            }
+            .conteudo-btn {
+                background-color: #FDEDE9;
+                border: 2px solid #000000;
+                box-shadow: rgba(0, 0, 0, 1) -5px 5px;
+                border-radius: 35px;
+                padding: 30px 40px;
+                text-align: left;
+                p {
+                    color: #3E3E3E;
+                }
+            }
+        }
+        .quote {
+            background-color: rgba(235, 0, 51, 0.22);
+            border-radius: 16px;
+            padding: 30px 130px;
+        }
+        .btn-respostas {
+            a {
+                background-color: #E9202E;
+                padding: 20px 25px;
+                font-size: 24px;
+                color: #ffffff;
+                border-radius: 25px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+@media (max-width: 913px){
+}
+@media (max-width: 540px){
+    .melhorias-score{
+        .sec-banner{
+            padding: 0;
+            img {
+                margin-top: 0;
+            }
+            .col-lg-12{
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .mob{
+                display: block;
+            }
+            .desk{
+                display: none;
+            }
+        }
+        .sec-conteudo {
+            p {
+                color: #3E3E3E;
+                font-size: 16px;
+                line-height: 1.5;
+            }
+        }
+        .sec-cardmelhorias {
+            h3 {
+                font-size: 19px;
+            }
+            p {
+                font-size: 14px;
+            }
+            .bordared {
+                padding: 30px 22px;
+                .cinza {
+                    font-size: 17px;
+                }
+            }
+            .item-lista {
+                margin-left: 5px;
+            }
+        }
+        .sec_melhorias {
+            .icone-seta {
+                width: 20px;
+            }
+            h3{
+                font-size: 19px;
+            }
+            p{
+                font-size: 14px;
+            }
+            .quote {
+                padding: 30px;
+            }
+        }
+    }
+}

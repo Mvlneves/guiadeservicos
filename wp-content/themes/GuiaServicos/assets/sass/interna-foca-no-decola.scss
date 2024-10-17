@@ -1,0 +1,309 @@
+.descricao{
+    .introducao{
+        .title1{
+            color: #EB0033;
+            font-size: 30px;
+            font-weight: bold;
+            width: 100%;
+            margin-top: 50px;
+        }
+        .conteudo1 {
+            font-size: 15px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+
+.cursos-do-mes{
+    background-color: #FDEDE9 !important;
+    padding-bottom: 4rem;
+    .border-card{
+        border-radius: 44px;
+        border: 3px solid #F20A33;
+        padding: 25px;
+        .tag-mes{
+            border-radius: 11.101px;
+            border: 1px solid #000;
+            background: #FDEDE9;
+            width: fit-content;
+            padding: 5px;
+            p {
+                margin-bottom: 0;
+            }
+        }
+        .procedimento{
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .btn.acesse{
+            border-radius: 19px;
+            color: #000;
+            background: #FFC300;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+    }
+    .title2{
+        color: #ffff;
+        border-radius: 10px;
+        background: #EB0033;
+        width: fit-content;
+        padding: 10px;
+        margin-top: 2rem;
+    }
+}
+
+.quero-participar{
+    .title1{
+        color: #EB0033;
+        font-size: 30px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: 50px;
+    }
+    ul{
+        padding-left: 1rem;
+        li{
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 15px;
+            &::after {
+                content: "";
+                position: absolute;
+                left: -20px;
+                top: 0;
+                width: 30px;
+                height: 30px;
+                background-size: 30px;
+            }
+        }
+        .item1{
+            &::after{
+                background-image: url(../images/focanodecola/1.png);
+            }
+        }
+        .item2{
+            &::after{
+                background-image: url(../images/focanodecola/2.png);
+            }
+        }
+        .item3{
+            &::after{
+                background-image: url(../images/focanodecola/3.png);
+            }
+        }
+    }
+    .acesse-ifood-decola{
+        max-width: 250px;
+        margin-top: 1rem;
+    }
+}
+
+.depoimento{
+    background: #E00333;
+    .background-red{
+        background: #EB0033;
+    }
+    .title4{
+        margin-bottom: 5px;
+        margin-top: 10%;
+        color: #ffff;
+        font-size: 25px;
+        border-radius: 10px;
+        background: #890019;
+        padding: 5px;
+        margin-left: 10%;
+        width: 100%;
+    }
+    .title5{
+        color: #ffff;
+        font-size: 25px;
+        border-radius: 10px;
+        background: #890019;
+        padding: 5px;
+        margin-left: 10%;
+        width: fit-content;
+    }
+    .carousel-decola{
+        .carousel-cell{
+            width: 100%;
+            gap: 1%;
+            padding-top: 2rem;
+            display: flex;
+            .ilustracao{
+                display: flex;
+                width: 35%;
+                flex-direction: column;
+            }
+            .box{
+                width: 45%;
+            }
+            .aspas{
+                width: 30px;
+            }
+            p {
+                color: #ffff;
+                width: 100%;
+                font-size: 20px;
+            }
+            ul{
+                li{
+                    color: #ffff;
+                    position: relative;
+                    padding-left: 25px;
+                    margin-bottom: 15px;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: -20px;
+                        top: 0;
+                        width: 30px;
+                        height: 30px;
+                        background-size: 30px;
+                    }
+                }
+                .icone1{
+                    &::after{
+                        background-image: url(../images/focanodecola/icon-1.png);
+                    }
+                }
+                .icone2{
+                    &::after{
+                        background-image: url(../images/focanodecola/icon-2.png);
+                    }
+                }
+            }
+        }
+    }
+}
+.confira-o-regulamento{
+    .title1{
+        color: #EB0033;
+        font-size: 30px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+    .conteudo1 {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .acesse-ifood-decola2{
+        max-width: 550px;
+        margin-top: 1rem;
+        margin-bottom: 50px;
+    }
+}
+
+.footer-redes-decola{
+    justify-content: center;
+    gap: 3%; 
+}
+.redes-sociais-inner-decola{
+    display: flex;
+    gap: 5%; 
+}
+.redes-sociais-inner-decola svg{
+    width: 60px;
+}
+.separacao-flex{
+    justify-content: center;
+    gap: 3%;
+}
+.decola-copyright p{
+    font-size: 11px;
+}
+.decola-ifood-logo{
+    display: flex;
+    align-items: center;
+}
+.faixa-decola-educacao{
+    background: #890119;
+    padding: 3rem 0px;
+}
+.faixa-decola-educacao p{
+    color:#FFF;
+    font-size:25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.img-vantagens-decola{
+    max-width:200px;
+}
+.img-books-decola{
+    max-width:180px;
+}
+@media (max-width: 762px) {
+    .redes-sociais-inner-decola svg{
+        width: 35px;
+    }
+    .decola-ifood-logo img{
+        width: 80px;
+    }
+    .faixa-decola-educacao p{
+        font-size: 14px;
+    }
+    .img-books-decola{
+        max-width: 83px;
+    }
+    .img-vantagens-decola {
+        max-width: 135px;
+        padding: 0px 10px;
+    }
+    .faixa-decola-educacao{
+        padding: 1.5rem 0px;
+    }
+    .separacao-flex {
+        justify-content: space-around;
+        gap: 3%;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .decola-copyright p{
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+    .confira-o-regulamento{
+        p {
+            word-wrap: break-word;
+        }
+    }
+    .cursos-do-mes{
+        .border-card{
+            margin-bottom: 1rem;
+        }
+    }
+    .depoimento{
+        margin-top: 1rem;
+        .title4{
+            background: transparent;
+            width: 90%;
+            margin-left: 5%;
+            margin-bottom: 0;
+        }
+        .title5{
+            background: transparent;
+            margin-left: 5%;
+        }
+        .carousel-cell{
+            flex-direction: column;
+            .ilustracao{
+                width: 100% !important;
+            }
+            .aspas{
+                padding-left: 1rem;
+                margin-top: 1rem;
+                width: 50px !important;
+            }
+            .box{
+                width: 100% !important;
+                margin-top: 1rem;
+                ul {
+                    padding-left: 1rem;
+                }
+            }
+        }
+    }
+}

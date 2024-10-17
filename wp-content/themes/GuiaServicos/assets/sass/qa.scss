@@ -1,0 +1,116 @@
+.internas.post{
+    #content-post{
+        #text-post{
+            p{
+                font-family: 'TipoiFoodTextos-Regular';
+
+                strong{
+                    font-family: 'TipoiFoodTextos-Bold';
+                }
+
+                b{
+                    font-family: 'TipoiFoodTextos-Bold';
+                }
+
+                a,
+                em,
+                i{
+                    font-family: 'TipoiFoodTextos-Regular';
+                }
+            }
+
+            li{
+                font-family: 'TipoiFoodTextos-Regular';        
+            }
+        }
+    }
+
+    .comparts.interna-compart{
+        margin: 15px 0 30px;
+        border-top: 1px solid #cdcccc;
+        border-bottom: 1px solid #cdcccc;
+    }    
+}
+
+.internas{
+    .content-second{
+        margin: 20px 0 20px;
+
+        p{
+            strong{
+                font-family: 'TipoiFoodTextos-Bold';
+                color: #000;
+            }
+        }
+
+        .su-table{
+            table{
+                border-radius: 10px;
+
+                th{
+                    background: #505050 !important;
+                    color: #FFF !important;
+                    font-family: 'TipoiFoodTextos-Bold';
+                    text-align: left !important;
+                    border: 2px solid #FFF !important;
+                    padding: 25px !important;
+                }
+                tr{
+                    td{
+                        background: #FDEDED !important;
+                        font-family: 'TipoiFoodTextos-Regular';
+                        padding: 25px !important;
+                        border: 2px solid #FFF !important;
+                    }
+                }
+
+                tr{
+                    &:nth-child(even){
+                        td{
+                            background: #FEF8F8 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .relacionadas{
+        .post{
+            .title-post{
+                font-family: 'TipoiFoodTitulos-Bold';
+            }
+
+            .categories{
+                font-family: 'TipoiFoodTextos-Regular';  
+            }
+        }
+    }
+
+    .content-page{
+        .answer{
+            ul{
+                li{
+                    span.bullet{
+                        color: #ff0000;
+                        padding: 0px 1px;
+                        line-height: 0;
+                        font-size: 20px;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+
+        .item-dicas{
+            margin: 25px 0;
+        }
+    }
+
+    .content-page.video-aula{
+        .accordion-toggle{
+            border-bottom: 1px solid #e7e7e7;
+            padding-bottom: 30px;
+        }
+    }
+}

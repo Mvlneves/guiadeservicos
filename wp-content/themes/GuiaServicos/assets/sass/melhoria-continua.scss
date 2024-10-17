@@ -1,0 +1,630 @@
+.intro {
+    background-color: #F8F2E9;
+    p {
+        color: #1A1A1A;
+        font-size: 20px;
+        line-height: 35px;
+        padding-top: 25px;
+    }
+    label{
+        color: #E6612F;
+    }
+}
+
+.atual{
+    h2 {
+        color: #E6612F;
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 17px;
+    }
+    h3{
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21px;
+        margin-bottom: 20px;
+        background-color: #E6612F;
+        padding: 6px;
+        border-radius: 5px;
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            height: 10px;
+        }
+    }
+    p.principais{
+        color: #EC4E58;
+        font-weight: 700;
+    }
+    span{
+        font-weight: 800;   
+    }
+    p{
+        img{
+            margin-right: 8px;
+            height: 15px;
+        }
+        a {
+            color: #EC4E58;
+            text-decoration: none;
+            &:hover {
+                font-weight: 600;
+                text-decoration: underline;
+            }
+        }
+    }
+} 
+.caixa-atual {
+    background-color: #F8F2E9;
+    padding: 25px;
+    border: 1px solid #E6612F;
+    border-radius: 0px 25px 25px 25px;
+}
+.outras {
+    display: block;
+    width: 100%;
+}
+.outras h2 {
+    color: #E6612F;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 17px;
+}
+.temp-ancora {
+    color: #AEAEAE;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.temp-ancora:hover {
+    color: #EA1D2C;
+    text-decoration: underline;
+}
+.temp-ancora.active {
+    color: #EA1D2C;
+    text-decoration: underline;
+}
+#temp1,#temp2,#temp3 {
+    background-color: #EA1D2C;
+    border-radius: 0px 25px 25px 0px;
+    padding: 35px;
+    color: #ffffff;
+    height: auto;
+    font-family: 'TipoiFoodTitulos-Medium';
+    /* SOMBRAS */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    h3{
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        padding-left: 40px;
+    }
+    p{
+        padding-left: 40px;
+    }
+    a{
+        color: #ffffff;
+        text-decoration: underline;
+    }
+}
+.elipse {
+    position: relative;
+}
+.elipse p::before {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    left: -4px;
+    background-color: #ffffff;
+}
+#temp2{
+    .elipse{
+        p:last-child:after {
+            height: 90px;
+            margin-top: -67px;    
+        }
+    }  
+}
+#temp3{
+    .elipse{
+        p:last-child:after {
+            height: 145px;
+            margin-top: -124px;    
+        }
+    }
+} 
+.saber-mais {
+    background-color: #F8F2E9;
+    img{
+        margin-top: 50px;
+    }
+}
+.grupo-trabalho{
+    h2{
+        color: #EA1D2C;
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 17px;
+        text-align: center;
+    }
+    p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .bg-grupo{
+        background: no-repeat center center/contain;
+        height: 400px;
+    }
+    .faz-parte{
+        h3{
+            font-size: 20px;
+            font-weight: 700;
+            color: #EC4E58;
+        }
+        .box{
+            border-radius: 0 30px 30px;
+            border: 1px solid #EC4E58;
+            padding: 1rem;
+            background-color: #F8F2E9;
+            ul{
+                margin-bottom: 0;
+                li{
+                    color: #1A1A1A;
+                    font-size: 15px;
+                    position: relative;
+                    line-height: 20px;
+                    padding-left: 25px;
+                    &::after{
+                        content: '';
+                        background: url(../images/melhoria-continua/ifood-lp-melhoria-continuada-icon-vetor.png) no-repeat center;
+                        position: absolute;
+                        top: 5px;
+                        left: 0px;
+                        height: 10px;
+                        width: 10px;
+                        background-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .line{
+        width: 65%;
+        margin: 0 auto;
+        height: 2px;
+        background-color: #E6612F;
+    }
+}   
+
+.relacionadas{
+    h2{
+        color: #EA1D2C;
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 17px;
+    }
+    .data-post {
+        color: #AEAEAE;
+        margin-top: 15px;        
+    }
+    a.vermais {
+        border-radius: 8px;
+        background-color: #EA1D2C;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        padding: 12px 120px;
+        font-size: 20px;
+        &:hover{
+            text-decoration: underline;    
+        }
+    }
+}
+.youtube{
+    .bg-youtube {
+        background-color: #F8F2E9;
+        padding: 25px;
+        border-radius: 35px 35px 35px 50px;
+        position: relative;
+        .box-shadow{
+            position: absolute;
+            border-radius: 35px;
+            padding: 25px;
+            border: 1px solid #E6612F;
+            width: 100%;
+            left: -11px;
+            top: -11px;
+            height: 135px;
+            z-index: -1;
+        }
+    }
+    h2{
+        color: #E6612F;
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 1.4;
+        text-align: left;
+    }
+    .call{
+        display: flex;
+        a{
+            background-color: #E6612F;
+            border-radius: 50px;
+            color: #ffffff;
+            font-size: 22px;
+            padding: 16px 15px;
+            width: 100%; 
+            &:hover{
+                text-decoration: underline;            
+            }
+        }
+        img{
+            margin-left: 50px;    
+        }
+    }
+} 
+.collapsex .item .body,
+.collapsex .item-mob .body-mob {
+    max-height: 0;
+}
+.collapsex .item.show .body,
+.collapsex .item-mob.show .body-mob {
+    max-height: unset;
+}
+.collapsex .body.hide,
+.collapsex .body-mob.hide {
+    display: none;
+}
+
+/* Mobile */
+
+.leia-mais-abrir,
+.leia-mais-aberto {
+    display: none;
+}
+.leia-mais-chk:checked ~ .leia-mais-wrap .leia-mais-abrir,
+.leia-mais-chk:checked ~ .leia-mais-aberto {
+    display: block;
+}
+.leia-mais-chk:checked ~ .leia-mais-fechado {
+    display: none;
+}
+.flickity-prev-next-button {
+    display: none;
+}
+
+#secdesk{
+    display: block;
+}
+
+#secmob{
+    display: none;
+}
+@media screen and (max-width:820px){
+    .elipse p:last-child:after {
+        margin-top: -47px;
+        height: 50px;
+    }
+    #temp2 .elipse p:last-child:after {
+        height: 225px;
+        margin-top: -201px;
+    }
+    #temp3 .elipse p:last-child:after {
+        height: 380px;
+        margin-top: -355px;
+    }
+
+    #secdesk{
+        display: none;
+    }
+
+    #secmob{
+        display: block;
+    }
+}
+@media screen and (max-width:768px){
+    .elipse p:last-child:after {
+        margin-top: 10px;
+        height: 50px;
+    }
+    #temp2 .elipse p:last-child:after {
+        height: 90px;
+        margin-top: -201px;
+    }
+    #temp3 .elipse p:last-child:after {
+        height: 150px;
+        margin-top: -355px;
+    }
+}
+@media screen and (max-width:767px){
+    .intro p {
+        padding-left: 8px;
+    }
+    .intro p img {
+        width: 55%;
+    }
+    .intro label {
+        margin-left: 8px !important;
+    }
+    .temp-ancora {
+        font-size: 14px;
+    }
+    .relacionadas h2 {
+        font-size: 20px;
+    }
+    .internas .relacionadas .post .image-post {
+        width: 100%;
+    }
+    .internas .relacionadas .post .content-post {
+        width: 100%;
+    }
+    .flickity-viewport {
+        margin-bottom: 30px;
+    }
+    .youtube .call a {
+        padding: 16px 12px;
+    }
+    .youtube .bg-youtube {
+        padding: 15px;
+    }
+    .youtube h2 {
+        font-size: 17px;
+    }
+    .youtube .call a {
+        font-size: 20px;
+    }
+    .youtube .call img {
+        margin-left: 0;
+        width: 45px;
+    }
+}
+
+@media screen and (max-width:414px){
+    #temp2 .elipse p:last-child:after {
+        margin-top: -47px;
+    }
+    #temp3 .elipse p:last-child:after {
+        margin-top: -106px;
+    }
+}
+@media screen and (max-width:412px){
+    #temp2 .elipse p:last-child:after {
+        margin-top: -47px;
+    }
+    #temp3 .elipse p:last-child:after {
+        margin-top: -105px;
+    }
+}
+@media screen and (max-width:390px){
+    #temp2 .elipse p:last-child:after {
+        margin-top: -67px;
+    }
+    #temp3 .elipse p:last-child:after {
+        margin-top: -124px;
+    }
+}
+@media screen and (max-width:375px){
+    #temp2 .elipse p:last-child:after {
+        margin-top: -66px;
+    }
+    #temp3 .elipse p:last-child:after {
+        margin-top: -124px;
+    }
+}  
+@media screen and (max-width:360px){
+    .elipse p:last-child:after {
+        margin-top: -10px;
+    }
+    #temp2 .elipse p:last-child:after {
+        height: 106px;
+        margin-top: -86px;
+    }
+    #temp3 .elipse p:last-child:after {
+        height: 165px;
+        margin-top: -143px;
+    }
+}
+
+/* ------------------------------ */
+
+#card-expand .hidden{
+    display: none;
+    position: relative;
+    /* top: 90px; */
+    padding-bottom: 25px;
+    padding-top: 120px;
+}
+#card-expand .hidden .recuo{
+    margin-left: 75px;
+    max-width: 85%;
+}
+#card-expand .cards{
+    display: flex;
+    width: 100%;
+    gap: 2%;
+    justify-content: space-evenly;
+}
+#card-expand .card{
+    width: 31%;
+    border-radius: 25px;
+    z-index: 2;
+    transition: all .5s;
+    cursor: pointer;
+}
+#card-expand .show{
+    width: 100%;
+    height: 310px;
+    transition: all .5s;
+    cursor: pointer;
+}
+#card-expand .show h1, #card-expand .show h5{
+    position: absolute;
+    left: 25px;
+    z-index: -1;
+    font-weight:bold;            
+}
+#card-expand .show h1{
+    top: 15px;
+    font-size: 55px;
+    color:#fff;
+}
+#card-expand .show h5{
+    bottom: 20px;
+    font-size:27px;
+    max-width: 400px;
+}
+#card-expand .plus{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: -1;
+    font-size: 70px;
+    color:#fff !important;
+}
+#card-expand #card-1{
+    background-image:url('<?php echo site_url();?>/wp-content/themes/iFood/assets/images/interacoes/camada_abaixo.png');
+    color:#fff;
+    border:none;
+}
+#card-expand #card-2{
+    background-image:url('<?php echo site_url();?>/wp-content/themes/iFood/assets/images/interacoes/camada_abaixo2.png');
+    color:#fec303;
+    border:none;
+}
+#card-expand #card-2 p{
+    color:#fff;
+}
+#card-expand #card-3 p{
+    color:#000;
+}
+#card-expand #card-3{
+    background-image:url('<?php echo site_url();?>/wp-content/themes/iFood/assets/images/interacoes/camada_abaixo3.png');
+    color:#9322b2;
+    border:none;
+}
+#card-expand .plus{
+    color: #fff !important;
+}
+#card-expand iframe{
+    width:100%;
+    height: 380px;
+}
+a.btn-link{
+    background-color: #f85713;
+    color: #FFF;
+    padding: 15px 65px;
+    font-family: 'TipoiFoodTextos-Regular';
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 12px;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+}
+a.btn-link:hover{
+    background-color: #f85713;
+    color: #FFF;
+}
+.ml-n1{
+    margin-left: -.6rem;
+}
+#card-expand p{
+    margin-bottom: .6rem;
+    font-size: 17px;
+}
+.interacoes.internas .answer.panel-body ul{
+    list-style: disc;
+    padding-left: 3rem;
+}
+.interacoes.internas .answer.panel-body li{
+    color:#000;
+}
+.interacoes.internas .content-page .accordion-toggle{
+    border-top: 2px solid #ea1d2c9c;
+    color: #000;
+}
+.acor-1{
+    border-top: none !important;
+}
+.interacoes.internas .question-item{
+    font-weight:bold;
+}
+.internas.interacoes .color-red{
+    color: #E9202E;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.internas.interacoes .banner .img-banner {
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #F8F2E9;
+}
+@media screen and (min-width: 1600px){
+    .internas.interacoes .banner .img-banner {
+        height: 640px;
+        background-color: #F8F2E9;
+    }
+}
+@media screen and (max-width:762px){
+    .internas.interacoes .color-red{
+        font-size:2rem;
+    }
+    .internas.interacoes .content-page .accordion-toggle{
+        margin: 0;
+    }
+    .titulo-page{
+        font-size: 1.5rem;
+    }
+    .internas.interacoes .banner .img-banner {
+        /* height: 200px !important; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: #F8F2E9;
+    }
+    .interacoes.internas .toogle-cards .content-page .accordion-toggle{
+        border:none;
+        color: #fff;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding: 13px;
+        margin-bottom: 7px;
+        min-height: 70px;
+    }
+    .interacoes.internas .toogle-cards .content-page .acor-4, #boxmob-4, .panel-4{
+        background-color:#9322b2;
+        color: #fff;
+        border-radius: 15px;
+    }
+    .interacoes.internas .toogle-cards .content-page .acor-5 , #boxmob-5, .panel-5{
+        background-color:#065737;
+        color:#fff;
+        border-radius: 15px;
+    }
+    .interacoes.internas .toogle-cards .content-page .acor-6, #boxmob-6, .panel-6{
+        background-color:#fec303;
+        color:#000;
+        border-radius: 15px;
+    }
+    #card-expand p.question-item{
+        margin-top:10px;
+    }
+    .internas .content-page .answer a{
+        color: #fff;
+    }
+    .panel-5 .question-item{
+        color:#fec303;
+    }
+    .panel-6 .question-item{
+        color:#9322b2;
+    }
+}

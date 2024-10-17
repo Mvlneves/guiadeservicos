@@ -1,0 +1,340 @@
+.lp-cnh{
+    .sec-aviso{
+        padding-top: 5rem;
+        .lado-esquerdo{
+            background: #890019;
+            padding: 3rem;
+            .img-aviso{
+                position: absolute;
+                top: 35%;
+                right: -40px;
+                width: 80px;
+            }
+            h2{
+                color: #F9F2E8;
+                leading-trim: both;
+                text-edge: cap;
+                font-family: "TipoiFoodTextos-Regular";
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 41px; /* 113.889% */
+                letter-spacing: -0.18px;
+                margin-bottom: 20px;
+            }
+            p{
+                color: #F9F2E8;
+                leading-trim: both;
+                text-edge: cap;
+                font-family: "TipoiFoodTextos-Regular";
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 30px; /* 150% */
+                letter-spacing: -0.1px;
+            }
+        }
+        .lado-direito{
+            padding: 3rem;
+            h2{
+                color: #EB0033;
+                leading-trim: both;
+                text-edge: cap;
+                font-family: "TipoiFoodTextos-Regular";
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 41px; /* 113.889% */
+                letter-spacing: -0.18px;
+                margin-bottom: 20px;
+            }
+            p{
+                color: #EB0033;
+                leading-trim: both;
+                text-edge: cap;
+                font-family: "TipoiFoodTextos-Regular";
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: -0.1px;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .sec-passos{
+        background: #EB0033;
+        padding-top: 5rem;
+        h2{
+            color: #F9F2E8;
+            leading-trim: both;
+            text-edge: cap;
+            font-family: "TipoiFoodTextos-Regular";
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 41px; /* 113.889% */
+            letter-spacing: -0.18px;
+        }
+        p{
+            color: #F9F2E8;
+            leading-trim: both;
+            text-edge: cap;
+            font-family: "TipoiFoodTextos-Regular";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px; /* 150% */
+            letter-spacing: -0.1px;
+            margin-bottom: 0;
+        }
+        .box{
+            border-radius: 23.705px;
+            background: #890019;
+            padding: 1.5rem 3rem;
+            position: relative;
+            margin-bottom: 35px;
+            display: flex;
+            align-items: center;
+            img{
+                position: absolute;
+                top: -30px;
+                left: -30px;
+            }
+            &.box-dois{
+                height: 199px;
+            }
+            &.box-tres{
+                height: 117px;
+            }
+            &.box-cinco{
+                .destaque{
+                    position: absolute;
+                    top: -50px;
+                    left: 335px;
+                }
+            }
+        }
+    }
+    .sec-carousel{
+        min-height: 900px;
+        .fundo-rosa{
+            padding-top: 5rem;
+            background: #FFDEEC;
+            max-height: 700px;
+        }
+        .fundo{
+            position: absolute;
+            top: -150px;
+        }
+        h2{
+            color: #EB0033;
+            leading-trim: both;
+            text-edge: cap;
+            font-family: "TipoiFoodTextos-Regular";
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 41px; /* 113.889% */
+            letter-spacing: -0.18px;
+        }
+        p{
+            color: #EB0033;
+            leading-trim: both;
+            text-edge: cap;
+            font-family: "TipoiFoodTextos-Regular";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px; /* 150% */
+            letter-spacing: -0.1px;
+        }
+        .carousel-cell{
+            width: 40%;
+            max-width: 333px;
+            img{
+                width: 100%;
+            }
+        }
+        .flickity-page-dots{
+            bottom: -50px;
+        }
+    }
+    .sec-aviso-final{
+        h2{
+            color: #EB0033;
+            text-align: center;
+            leading-trim: both;
+            text-edge: cap;
+            font-family: "TipoiFoodTextos-Regular";
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 41px; /* 113.889% */
+            letter-spacing: -0.18px;
+        }
+        p{
+            color: #EB0033;
+            text-align: center;
+            leading-trim: both;
+            text-edge: cap;
+            font-family: "TipoiFoodTextos-Regular";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px; /* 150% */
+            letter-spacing: -0.1px;
+        }
+    }
+}
+
+.sec-perguntas{
+    position: relative;
+    padding: 0;
+    background: no-repeat #890019 right;
+    margin-top: 2rem;
+
+    &:before{
+        content: '';
+        position: absolute;
+        top: -20px;
+        background: url(../images/jeitoifood/arrow.svg) no-repeat 0 center;
+        height: 40px;
+        width: 100%;
+    }
+    h2{
+        color: #FFF;
+    }
+    .collapse.in{
+        display: block;
+    }
+    .canal.collapsed{
+        border-radius: 5px; 
+        .seta{
+            display: inline-block;
+        }           
+
+        .seta-up{
+            display: none;
+        }
+    }
+    .canal{
+        background-color: #EB0033;
+        color: #FFF;
+        text-decoration: none !important;
+        padding: 1rem;
+        display: block;
+        border-radius: 5px; 
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        font-size: 24px;
+        .seta{
+            display: none;
+            float: right;
+        }
+
+        .seta-up{
+            display: inline-block;
+            float: right;
+        }
+    }
+    ul{
+        margin-left: 20px; 
+        li{
+            list-style: disc;
+            color: #FFF;
+            font-size: 16px;
+        }
+    }
+    ol{
+        margin-left: 20px;
+        li{
+            color: #FFF;
+            font-size: 16px;
+        }
+    }
+    .pergunta{
+        background-color: #EB0033;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    a{
+        font-weight: 700;
+        font-size: 1em;
+        color: #890119;
+        text-decoration: none;
+        &:hover{
+            color: #890019;
+            text-decoration: underline;
+        }
+    }
+    p{
+        color: #FFF;
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 762px){
+    .lp-cnh .sec-carousel .carousel-cell{
+        width: 100%;
+    }
+    .lp-cnh .sec-aviso .lado-esquerdo .img-aviso{
+        right: 0;
+        left: 0;
+        width: 60px;
+        top: auto;
+        margin: 0 auto;
+    }
+    .lp-cnh .sec-aviso {
+        padding-top: 0;
+        margin-top: -2rem;
+    }
+    .lp-cnh .sec-aviso .lado-esquerdo,
+    .lp-cnh .sec-aviso .lado-direito
+    {
+        padding: 2rem;
+    }
+    .lp-cnh .sec-aviso .lado-esquerdo h2,
+    .lp-cnh .sec-aviso .lado-direito h2,
+    .lp-cnh .sec-passos h2,
+    .lp-cnh .sec-carousel h2,
+    .lp-cnh .sec-aviso-final h2
+    {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .lp-cnh .sec-aviso .lado-esquerdo p,
+    .lp-cnh .sec-aviso .lado-direito p,
+    .lp-cnh .sec-passos p,
+    .lp-cnh .sec-carousel p,
+    .lp-cnh .sec-aviso-final p
+    {
+        font-size: 14px;
+        line-height: 20px; /* 142.857% */
+    }
+    .lp-cnh .sec-carousel .fundo {
+        position: absolute;
+        top: -30px;
+        max-width: 90%;
+    }
+    .lp-cnh .sec-carousel .row.mt-3{
+        margin-top: 6rem!important
+    }
+    .lp-cnh .sec-passos img.destaque.mob {
+        right: -33px;
+        left: 49px;
+        margin-left: auto;
+        width: 50px;
+    }
+    .lp-cnh .sec-passos{
+        padding-top: 2rem;
+    }
+    .lp-cnh .sec-passos .box{
+        padding: 1.5rem 2.5rem;
+    }
+    .lp-cnh .sec-passos .box.box-dois,
+    .lp-cnh .sec-passos .box.box-tres{
+        height: auto;
+    }
+}

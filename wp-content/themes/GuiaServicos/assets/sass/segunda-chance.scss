@@ -1,0 +1,695 @@
+.banner-header{
+    .desk{
+        width: 100%;
+    }
+}
+
+.iniciativa-ifood{
+    .introducao{
+        padding: 4rem;
+        .texto1{
+            color: #EB0033;
+            font-size: 50px;
+            line-height: 1.5;
+            span{
+                color: #890119;
+                border: 2px solid #FFBA02;
+                border-radius: 50px;
+                padding: 2px 15px 8px 15px;
+            }
+        }
+    }
+}
+
+.eu-posso-participar{
+    margin-top: 30px;
+    .container{
+        margin-bottom: 1rem;
+        border-radius: 20px;
+        background: #EB0033;
+        padding: 10px 30px;
+        .texto2{
+            color: #FFFF;
+            padding: 1rem;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40.411px; /* 97.273% */
+        }
+        .col{
+            border-radius: 20px;
+            background: #FFC300;
+            color:#000;
+            padding: 1rem;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-bottom: 1rem;
+            font-size: 27.031px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 37.764px; /* 139.706% */
+            .item {
+                img {
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    height: 45px;
+                    left: 0;
+                    top: 0;
+                }
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+.inscricoes{
+    .texto3{
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+        text-align: center;
+        color: #EB0033;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .fundo {
+        background: url(../images/segunda-chance/fundo-redondo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 950px;
+    }
+    .border-red{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        .inscricoes{
+            padding-top: 1rem;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            text-align: center;
+            .texto4{
+                color: #FFFF;
+                font-size: 50px;
+                padding-bottom: 50px;
+            }
+            li {
+                color: #FFFF;
+                border: 2px solid #890119;
+                border-radius: 50px;
+                padding: 15px;
+                width: fit-content;
+                margin: 0 auto;
+                span {
+                    color: #890119;
+                    background: #FFC300;
+                    border-radius: 50px;
+                    font-size: 32px;
+                    padding: 5px 18px;
+                    font-weight: 600;
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+}
+
+.observacoes{
+    margin-top: 3rem;
+    padding: 1rem;
+    .col{
+        border-radius: 20px;
+        background: #FFC300;
+        color:#000;
+        padding: 1rem;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 1rem;
+        font-size: 27.031px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 37.764px; /* 139.706% */
+        .item {
+            img {
+                position: absolute;
+                transform: translate(-50%, -50%);
+                height: 45px;
+                left: 0;
+                top: 0;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.informacoes{
+    span{
+        padding-left: 42px;
+    }
+    li{
+        font-size: 25px;
+    }
+    .texto5{
+        color: #EB0033;
+        border: 2px solid #FFBA02;
+        border-radius: 50px;
+        padding: 10px 35px;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .listas {
+        .linha {
+            div {
+                display: inline-block;
+                vertical-align: top;
+            }
+            .icone {
+                width: 5%;
+                margin-top: 5px;
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+            .texto {
+                width: 94%;
+                p {
+                    font-size: 22px;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}
+
+.prazos{
+    background: #F9F2E8;
+    color: #890119;
+    font-size: 25px;
+    text-align: left;
+    .texto6{
+        color: #EB0033;
+        font-size: 60px;
+        text-align: left;
+    }
+}
+
+.banner-footer{
+    background: url(../images/segunda-chance/BG-FOOTER.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #EB0033;
+    width: 100%;
+    .texto7{
+        color: #F9F2E8;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 1000;
+        margin-bottom: -2%;
+    }
+    .segundas{
+        color: #FFC400;
+        text-align: center;
+        padding-right: 13rem;
+        font-size: 90px;
+        font-weight: 1000;
+        margin-bottom: -2%;
+    }
+    .chances{
+        color: #FFC300;
+        text-align: center;
+        font-size: 70px;
+        font-weight: 1000;
+        margin-bottom: -2%;
+        span{
+            color: #F9F2E8;
+        }
+    }
+    .texto8{
+        color: #F9F2E8;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 1000;
+        margin-bottom: 2rem;
+        span{
+            color: #FFC400;
+        }
+    }
+    a{
+        color: #FFC300;
+        background: #890119;
+        border: 2px #890119 solid;
+        border-radius: 854px;
+        font-size: 35px;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 6px 25px;
+        &:hover {
+            text-decoration: none;
+            color: #FFC300;
+            border: 2px #FFC300 solid;
+        }
+    }
+}
+
+.agradecimento{
+    color: #890119;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sec-perguntas{
+    position: relative;
+    padding: 0;
+    background: no-repeat #890019 right;
+
+    &:before{
+        content: '';
+        position: absolute;
+        top: -20px;
+        background: url(../images/jeitoifood/arrow.svg) no-repeat 0 center;
+        height: 40px;
+        width: 100%;
+    }
+    h2{
+        color: #FFF;
+    }
+    .collapse.in{
+        display: block;
+    }
+    .canal.collapsed{
+        border-radius: 5px; 
+        .seta{
+            display: inline-block;
+        }           
+
+        .seta-up{
+            display: none;
+        }
+    }
+    .canal{
+        background-color: #EB0033;
+        color: #FFF;
+        text-decoration: none !important;
+        padding: 1rem;
+        display: block;
+        border-radius: 5px; 
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        font-size: 24px;
+        .seta{
+            display: none;
+            float: right;
+        }
+
+        .seta-up{
+            display: inline-block;
+            float: right;
+        }
+    }
+    ul{
+        margin-left: 20px; 
+        li{
+            list-style: disc;
+            color: #FFF;
+            font-size: 16px;
+        }
+    }
+    ol{
+        margin-left: 20px;
+        li{
+            color: #FFF;
+            font-size: 16px;
+        }
+    }
+    .pergunta{
+        background-color: #EB0033;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    a{
+        font-weight: 700;
+        font-size: 1em;
+        color: #890119;
+        text-decoration: none;
+        &:hover{
+            color: #890019;
+            text-decoration: underline;
+        }
+    }
+    p{
+        color: #FFF;
+        font-size: 22px;
+    }
+
+}
+
+
+@media (max-width: 360px){
+    .banner-header{
+        width: 100%;
+    }
+    .iniciativa-ifood{
+        .introducao{
+            padding: 0.5rem;
+            .texto1{
+                font-size: 15px;
+                line-height: 2.0;
+                span{
+                    padding: 2px 2px 2px 2px;
+                }
+            }
+        }
+    }
+    .inscricoes{
+        .texto3{
+            width: 100%;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            text-align: center;
+            color: #EB0033;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+        }
+        .fundo {
+            background: url(../images/segunda-chance/mobile/fundo-redondo.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            padding-top: 31px;
+            width: fit-content;
+        }
+        .border-red{
+            .inscricoes{
+                padding-top: 1rem;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+                .texto4{
+                    color: #FFFF;
+                    font-size: 20px;
+                }
+                li {
+                    color: #FFFF;
+                    border: 2px solid #890119;
+                    border-radius: 50px;
+                    font-size: 12px;
+                    padding: 12px;
+                    line-height: 18px;
+                    width: fit-content;
+                    margin: 0 auto;
+                    span {
+                        color: #890119;
+                        background: #FFC300;
+                        border-radius: 50px;
+                        font-size: 12px;
+                        padding: 3px 8px;
+                        font-weight: 600;
+                        margin-right: 8px;
+                    }
+                }
+                img{
+                    width: 3%;
+                }
+            }
+        }
+    }
+    .observacoes{
+        .col{
+            margin-right: 24px;
+            margin-left: 24px;
+            margin-bottom: 2rem;
+        }
+    }
+    .informacoes{
+        .texto5{
+            font-size: 22px;
+        }
+    }
+    .prazos{
+        font-size: 20px;
+        .texto6{
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+    }
+    .banner-footer{
+        background: url(../images/segunda-chance/mobile/BG-FOOTER.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #EB0033;
+        width: 100%;
+        .texto7{
+            color: #F9F2E8;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 1000;
+            margin-top: 15rem;
+            margin-bottom: -8%;
+        }
+        .segundas{
+            color: #FFC400;
+            text-align: center;
+            padding-right: 13rem;
+            font-size: 50px;
+            font-weight: 1000;
+            margin-bottom: -8%;
+        }
+        .chances{
+            color: #FFC300;
+            text-align: center;
+            font-size: 60px;
+            font-weight: 1000;
+            margin-bottom: -8%;
+            span{
+                color: #F9F2E8;
+            }
+        }
+        .texto8{
+            color: #F9F2E8;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 1000;
+            margin-bottom: 0;
+            span{
+                color: #FFC400;
+            }
+        }
+        a{
+            color: #FFC300;
+            background: #890119;
+            border: 2px #890119 solid;
+            border-radius: 854px;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+            padding: 6px 25px;
+            &:hover {
+                text-decoration: none;
+                color: #FFC300;
+                border: 2px #FFC300 solid;
+            }
+        }
+    }
+    .agradecimento{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 414px){
+    .banner-header{
+        width: 100%;
+    }
+    .iniciativa-ifood{
+        .introducao{
+            padding: 0.5rem;
+            .texto1{
+                font-size: 15px;
+                line-height: 2.0;
+                span{
+                    padding: 2px 2px 2px 2px;
+                }
+            }
+        }
+    }
+    .eu-posso-participar{
+        padding: 5px 41px;
+    }
+    .inscricoes{
+        .texto3{
+            width: 100%;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            text-align: center;
+            color: #EB0033;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+        }
+        .fundo {
+            background: url(../images/segunda-chance/mobile/fundo-redondo.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            padding-top: 31px;
+            width: fit-content;
+        }
+        .border-red{
+            .inscricoes{
+                padding-top: 1rem;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                text-align: center;
+                .texto4{
+                    color: #FFFF;
+                    font-size: 20px;
+                }
+                li {
+                    color: #FFFF;
+                    border: 2px solid #890119;
+                    border-radius: 50px;
+                    font-size: 12px;
+                    padding: 12px;
+                    line-height: 18px;
+                    width: fit-content;
+                    margin: 0 auto;
+                    span {
+                        color: #890119;
+                        background: #FFC300;
+                        border-radius: 50px;
+                        font-size: 12px;
+                        padding: 3px 8px;
+                        font-weight: 600;
+                        margin-right: 8px;
+                    }
+                }
+                img{
+                    width: 3%;
+                }
+            }
+        }
+    }
+    .observacoes{
+        .col{
+            margin-right: 24px;
+            margin-left: 24px;
+            margin-bottom: 2rem;
+            padding: 30px;
+        }
+    }
+    .informacoes{
+        .texto5{
+            font-size: 22px;
+        }
+    }
+    .prazos{
+        font-size: 20px;
+        .texto6{
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+    }
+    .banner-footer{
+        background: url(../images/segunda-chance/mobile/BG-FOOTER.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #EB0033;
+        width: 100%;
+        padding-left: 35px;
+        .texto7{
+            color: #F9F2E8;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 1000;
+            margin-top: 15rem;
+            margin-bottom: -8%;
+        }
+        .segundas{
+            color: #FFC400;
+            text-align: center;
+            padding-right: 13rem;
+            font-size: 50px;
+            font-weight: 1000;
+            margin-bottom: -8%;
+        }
+        .chances{
+            color: #FFC300;
+            text-align: center;
+            font-size: 60px;
+            font-weight: 1000;
+            margin-bottom: -8%;
+            span{
+                color: #F9F2E8;
+            }
+        }
+        .texto8{
+            color: #F9F2E8;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 1000;
+            margin-bottom: 0;
+            span{
+                color: #FFC400;
+            }
+        }
+        a{
+            color: #FFC300;
+            background: #890119;
+            border: 2px #890119 solid;
+            border-radius: 854px;
+            font-size: 13px;
+            font-weight: 700;
+            text-decoration: none;
+            padding: 6px 25px;
+            &:hover {
+                text-decoration: none;
+                color: #FFC300;
+                border: 2px #FFC300 solid;
+            }
+        }
+    }
+    .agradecimento{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 540px){
+    .sec-perguntas{
+        .canal{
+            position: relative;
+            span{
+                max-width: 90%;
+                display: block;
+            }
+            .seta,
+            .seta-up{
+                position: absolute;
+                right: 15px;
+                top: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 913px){
+    .sec-perguntas{
+        background-image: none !important;
+        .bg-mob{
+            width: 100%;
+        }
+        .pr-5{
+            padding-right: 15px !important;
+        }
+    }
+}

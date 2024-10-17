@@ -1,0 +1,45 @@
+{
+  "name": "guia-de-servicos",
+  "version": "1.0.0",
+  "description": "template padrao para jobs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp compile-dev",
+    "prod": "gulp compile-prod",
+    "compress-css": "gulp compress-css",
+    "compress-upload": "gulp compress-upload",
+    "compress-images": "gulp compress-images",
+    "compress-js": "gulp compress-js"
+  },
+  "author": "Maicon cabral",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "concurrently": "^4.1.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "gulp-uglifycss": "^1.1.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ]
+}

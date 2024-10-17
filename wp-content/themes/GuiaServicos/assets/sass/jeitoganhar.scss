@@ -1,0 +1,421 @@
+
+.jeitoganhar{
+
+   
+    .sec-banner{
+        img{
+            height: auto;
+            width: 100%;
+            margin-top: 28px;
+        }
+        .mob{
+            display: none;
+        }
+    }
+
+    .sec-conteudo {
+        p {
+            color: #3E3E3E;
+            font-size: 16px;
+            line-height: 1.5;
+
+            a {
+                color: #3E3E3E;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .sec-rota {
+        h2 {
+            color: #3e3e3e;
+            font-size: 2em;
+            font-weight: 800;
+        }
+        p {
+            color: #3E3E3E;
+            font-size: 16px;
+        }
+        .mob {
+            margin: 0 auto;
+        }
+        img.cofrinho{
+            display: block;
+            margin: 0 auto;
+            margin-top: -5px;
+        }
+        span {
+            font-size: 16px;
+            font-weight: 800;
+        }
+    }
+
+    .sec-aumentarganhos {
+        background-color: #FFFAF0;
+        position: relative;
+
+        h2 {
+            color: #3e3e3e;
+            font-size: 2em;
+            font-weight: 800;
+        }
+        h3 {
+            color: #EB0033;
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+        p {
+            color: #3E3E3E;
+            font-size: 16px;
+            line-height: 1.5;
+            a {
+                color: #1A1A1A;
+                text-decoration: underline;
+            }
+        }
+        .bordared {
+            border: 2px solid #EB0033;
+            border-radius: 35px;
+        }
+        ul {
+            list-style-type: disc;
+
+            li {
+                font-size: 16px;
+                line-height: 1.5;
+                font-family: 'TipoiFoodTextos-Bold';
+            }
+        }
+        .setas1 {
+            position: absolute;
+            top: -66px;
+        }
+        .setas2 { 
+            position: absolute;
+            bottom: -68px;
+            right: 0;
+        }
+        .aumento-ganhos{
+            div{
+                display: inline-block;
+                vertical-align: top;
+            }
+            div.icone{
+                width: 5%;
+                margin-top: 5px;
+                img{
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+            div.texto{
+                width: 94%;
+            }
+        }
+    }
+
+    .sec-aumentarganhosmob{
+        background-color: #FFFAF0;
+        position: relative;
+        
+        h2 {
+            color: #3e3e3e;
+            font-size: 2em;
+            font-weight: 800;
+        }
+        h3 {
+            color: #EB0033;
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+        p {
+            color: #1A1A1A;
+            font-size: 16px;
+            line-height: 1.2;
+
+            a {
+                color: #1A1A1A;
+                text-decoration: underline;
+            }
+        }
+        .bordared {
+            border: 2px solid #EB0033;
+            border-radius: 0px 0px 35px 35px;
+            border-top: none;
+            margin: 0;
+            margin-top: -20px;
+        }
+        ul {
+            list-style-type: disc;
+
+            li {
+                font-size: 16px;
+                line-height: 1.5;
+            }
+        }
+        .setas1 {
+            position: absolute;
+            top: -10px;
+        }
+        .setas2 { 
+            position: absolute;
+            bottom: -10px;
+            right: 0;
+        }
+
+        .collapse.in{
+            display: block;
+        }
+        .borda{
+            border-radius: 15px;
+            border: none;
+            margin-bottom: 25px;
+            padding: 15px 20px;
+        }
+        .n-borda{
+            border-top: none;
+        }
+        .canal.collapsed{
+            .seta{
+                display: inline-block;
+            }           
+            .seta-up{
+                display: none;
+            }
+        }
+        .canal{
+            background-color: #EB0033;
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            padding: 15px 15px;
+            border-radius: 20px;
+            position: relative;
+
+            span{
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 600;
+            }            
+            img{
+                position: absolute;
+                right: 18px;
+                top: 20px;
+            }
+            .seta{
+                display: none;
+            }
+            .seta-up{
+                display: inline-block;
+            }
+        }
+        .pergunta{
+            p{
+                color: #1A1A1A;
+            }
+            ol{
+                margin-left: 38px;
+                li{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .sec-horario {
+        h2 {
+            color: #3e3e3e;
+            font-size: 2em;
+            font-weight: 800;
+        }
+        p {
+            color: #3E3E3E;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    }
+    
+    .sec-perguntas{
+        padding: 0;
+        background: no-repeat #890019 right;
+
+        h2{
+            font-family: 'TipoiFoodTitulos-Bold';
+            font-size: 2em;
+            font-weight: 800;
+            color: #ffffff;
+        }
+        a{
+            color: #ffffff;
+            font-family: 'TipoiFoodTextos-Bold';
+            text-decoration: underline;
+            font-size: 1em;
+        }
+        p{
+            font-size: 16px;
+        }
+        ol{
+            li{
+                font-family: 'TipoiFoodTextos-Bold';
+                color: #ffffff;
+                font-size: 16px;
+            }
+        }
+        .collapse.in{
+            display: block;
+        }
+        .borda{
+            background-color: #EB0033;
+            border-radius: 5px;
+            border: none;
+            // margin-bottom: 25px;
+            margin-bottom: 1rem!important;
+            padding: 15px 20px;
+        }
+        .n-borda{
+            border-top: none;
+        }
+        .canal.collapsed{
+            .seta{
+                display: inline-block;
+            }           
+
+            .seta-up{
+                display: none;
+            }
+        }
+        .canal{
+            display: block;
+            width: 100%;
+            color: #242424;
+            text-decoration: none;
+            position: relative;
+
+            span{
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            
+            img{
+                position: absolute;
+                right: 10px;
+                top: 6px;
+            }
+            .seta{
+                display: none;
+            }
+
+            .seta-up{
+                display: inline-block;
+            }
+        }
+        .pergunta{
+            p{
+                color: #ffffff;
+            }
+            ol{
+                margin-left: 38px;
+                li{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .float-whatsapp{
+        background-color: #3DD054;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        img{
+            padding: 10px;
+            filter: brightness(0) saturate(100%) invert(100%) sepia(79%) saturate(2%) hue-rotate(226deg) brightness(106%) contrast(101%);
+        }
+    }
+}
+
+@media (max-width: 913px){
+    
+}
+
+@media (max-width: 540px){
+    
+    .jeitoganhar{
+        .sec-banner{
+            padding: 0;
+
+            img {
+                margin-top: 0;
+            }
+            .col-lg-12{
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .mob{
+                display: block;
+            }
+            .desk{
+                display: none;
+            }
+        }
+        
+        .sec-conteudo {
+            p {
+                color: #3E3E3E;
+                font-size: 16px;
+                line-height: 1.5;
+            }
+        }
+
+        .sec-rota {
+            h2 {
+                color: #3e3e3e;
+                font-size: 2em;
+            }
+            p {
+                font-size: 16px;
+                line-height: 1.5;
+            }
+        }
+
+        .sec-aumentarganhosmob {
+            h2 {
+                color: #3e3e3e;
+                font-size: 2em;
+            }
+        }
+
+        .sec-horario {
+            h2 {
+                color: #3e3e3e;
+                font-size: 2em;
+            }
+            p {
+                font-size: 16px;
+                line-height: 1.5;
+            }
+        }
+
+        .sec-perguntas{
+            background-image: none !important;
+
+            .canal{
+                span{
+                    max-width: 85%;
+                    display: block;
+                    font-size: 1rem;
+                }
+                img{
+                    position: absolute;
+                    right: 0px;
+                    top: 4px;
+                }
+            }
+        }
+    }
+}
